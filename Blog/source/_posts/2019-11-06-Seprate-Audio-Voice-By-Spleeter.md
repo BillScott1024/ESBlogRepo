@@ -2,13 +2,12 @@
 layout: post
 title: 分离歌曲音频中的人声和背景音乐
 description: 想要K歌却苦于找不到喜欢的音乐的纯BGM？想要去除歌曲中的各种乐器的背景音乐，来个清唱版？不如试试这个开源项目吧.来自法国的音乐流媒体公司 Deezer 开源了一个音轨分离软件 spleeter，只需输入一段命令就可以将音乐的人声和各种乐器声分离，支持 mp3、wav、ogg 等常见音频格式。这款软件基于 TensorFlow 开发，效果拔群，有网友说自己曾经试过无数类似软件，spleeter 是最好用的一个。我在配置好环境后，测试了一下，效果拔群，几乎是我使用过的最好的分离人声和消除背景音的工具。我使用的测试歌曲是米津玄师的《Lemon》
+thumbnail: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/spleeter_logo.png
 date: 2019-11-06
 tags: 工具
 music-id: 536622304
 ---
 
-*  目录
-{:toc}
 
 # 从一首歌中分离人声和BGM(背景音乐)
 

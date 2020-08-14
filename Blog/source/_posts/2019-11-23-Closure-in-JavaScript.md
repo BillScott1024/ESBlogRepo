@@ -2,6 +2,7 @@
 layout: post
 title: JavaScript深入浅出之理解闭包
 description: 函数与对其状态即词法环境（lexical environment）的引用共同构成闭包（closure）。也就是说，闭包可以让你从内部函数访问外部函数作用域。在JavaScript，函数在每次创建时生成闭包。
+thumbnail: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/d3254348-13a1-4d50-af7d-393051ee62c2.jpg
 date: 2019-11-23
 tags: JavaScript
 music-id: 829845

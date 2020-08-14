@@ -2,12 +2,12 @@
 layout: post
 title: 洗牌算法/Fisher-Yates Shuffle
 description: 在游戏开发中，经常会遇到需要将一个数组打乱的情况，例如，在一个卡牌系统中需要做一个抽卡，给你8张卡牌，从中抽取一张，并获得奖励：费舍尔·耶茨洗牌算法的做法是：给出数组Array，数组长度为n，取数组最后一个值M，再从数组的前n-1个元素中随机取一个值N，与最后一个值交换位置M，再取数组倒数第二个值N1，在前n-2各元素中随机取一个值M1与N1交换位置，依次取完剩下的值，完成数组打乱，算法的时间复杂度为O(n)。
+thumbnail: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/20190920164546.png
 date: 2019-09-20
 tags: 算法
 music-id: 496869422
 --- 
-*  目录
-{:toc}
+
 
 
 # 洗牌算法/Fisher-Yates Shuffle

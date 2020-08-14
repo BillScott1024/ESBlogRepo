@@ -2,13 +2,12 @@
 layout: post
 title: 在GitHub仓库使用Git命令 遇到ssh_exchange_identification错误的解决办法
 description: 记录一次遇到在GitHub上使用Git命令Pull仓库遇到的“疑难杂症”。
+thumbnail: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/QQ20200810-164246.png
 date: 2020-08-10
 tags: Git
 music-id: 829845
 ---
 
-*  目录
-{:toc}
 
 -------
 ![GitHub](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/what-is-github-1-1.png)

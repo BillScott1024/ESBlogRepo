@@ -2,13 +2,12 @@
 layout: post
 title: 使用Google Closure Compiler进行Js代码压缩
 description: The Closure Compiler is a tool for making JavaScript download and run faster. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what's left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.
+thumbnail: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/20180903132733.png
 date: 2018-09-03 
 tags: JavaScript  
 music-id: 470795480
 --- 
 
-*  目录
-{:toc}
 
 ### 1.Google Closure Compiler是什么？
 > The Closure Compiler is a tool for making JavaScript download and run faster. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what's left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.

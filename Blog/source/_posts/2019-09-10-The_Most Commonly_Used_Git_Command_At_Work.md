@@ -2,13 +2,12 @@
 layout: post
 title: 工作中最常用的Git命令及常见错误解决方案
 description: 1. git clone 克隆远程代码仓库
+thumbnail: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/20190911194932.png
 date: 2019-09-10
 tags: Git
 music-id: 1373225817
 --- 
 
-*  目录
-{:toc}
 
 
 # Git主要操作命令

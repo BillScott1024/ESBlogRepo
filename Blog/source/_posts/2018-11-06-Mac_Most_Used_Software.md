@@ -2,6 +2,7 @@
 layout: post
 title: Mac常用软件工具合集（更新中...）
 description: PDFelement 6 Pro (付费)
+thumbnail: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/20181106115306.png
 date: 2018-11-06
 tags: Mac  
 music-id: 1293951677
@@ -9,8 +10,6 @@ music-id: 1293951677
 
 -------
 
-*  目录
-{:toc}
 
 
 <a href="https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/20181106115306.png" id="id">

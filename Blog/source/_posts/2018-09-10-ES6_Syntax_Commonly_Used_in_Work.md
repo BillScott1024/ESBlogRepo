@@ -7,8 +7,6 @@ tags: JavaScript
 music-id: 520459382
 --- 
 
-*  目录
-{:toc}
 
 # 一、let和const
 在JavaScript中咱们以前主要用关键var来定义变量，ES6之后，新增了定义变量的两个关键字，分别是let和const。

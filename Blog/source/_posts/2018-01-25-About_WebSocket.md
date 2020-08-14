@@ -6,8 +6,6 @@ date: 2018-08-27
 tags: 网络   
 --- 
 
-*  目录
-{:toc}
 
 # 什么是WebSocket？ #
 　

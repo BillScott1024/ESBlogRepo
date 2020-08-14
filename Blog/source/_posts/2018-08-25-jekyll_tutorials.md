@@ -2,6 +2,7 @@
 layout: post
 title: Jekyll搭建个人博客
 description: 这篇文章主要讲的是如何使用和修改我的博客主题，文章内容含以下几点
+thumbnail: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/20180902002437.png
 date: 2017-09-05 
 tags: 博客   
 music-id: 1297750680

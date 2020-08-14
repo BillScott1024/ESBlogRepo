@@ -2,13 +2,12 @@
 layout: post
 title: JavaScript深入浅出之理解Null和Undefined
 description: 在JavaScript有5个基本的简单数据类型：Number，String，Boolean，Null，Undefined 和一个复杂数据类型Object，其中**Null**和**Undefined**是最特殊的两个，在开发中经常会被搞混。
+thumbnail: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/bg2014032801.png
 date: 2019-11-19
 tags: JavaScript
 music-id: 829845
 ---
 
-*  目录
-{:toc}
 -------
 
 ![Null&Undefined](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/bg2014032801.png)
