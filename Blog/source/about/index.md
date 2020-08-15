@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 关于
+body: [article]
 meta:
   header: []
   footer: []

@@ -1,0 +1,31 @@
+# The following can be written in `blog/source/_data/menu.yml`
+    - name: 博客
+      icon: fas fa-rss
+      url: /
+    - name: 归档
+      icon: fas fa-archive
+      url: archives/
+    - name: 标签
+      icon: fas fa-tags
+      url: tags/
+    - name: 分类
+      icon: fas fa-folder-open
+      url: categories/
+    - name: 友链
+      icon: fas fa-link
+      url: friends/
+    - name: 说说
+      icon: fas fa-comments
+      url: shuoshuo/
+    - name: 关于
+      icon: fas fa-info-circle
+      url: about/
+    - name: 工具箱
+      icon: fas fa-tools
+      url: tools/
+    - name: 更多
+      icon: fas fa-ellipsis-v
+      rows:
+        - name: 留言板
+          icon: fas fa-file-signature
+          url: comments/

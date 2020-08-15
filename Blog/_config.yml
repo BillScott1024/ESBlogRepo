@@ -4,17 +4,17 @@
 
 # Site
 title: 忆星辰
-favicon: /images/favicon.png
-subtitle: ''
+favicon: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar/favicon-cicle.png
+subtitle: '个人博客'
 description: '星辰的个人博客'
-keywords:
+keywords: "博客, 游戏, 开发, Unity, Laya, Cocos, JavaScript, TyptScript, 前端"
 author: Akimoto
-language: en
+language: zh-cn
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://extingstudio.com
+url: https://www.extingstudio.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -30,7 +30,8 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: "tools/**"
+# will output `source/mypage/index.html` and `source/mypage/code.js` without altering them.
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -101,6 +102,62 @@ baidu_analytics_key: e98a157d14b712d66463073d921b0253
 
 google_analytics_key: UA-124641144-1
 
+
+live2d:
+  enable: true
+  scriptFrom: local
+  model:
+    use: live2d-widget-model-tororo #模型选择
+    scale: 1
+    hHeadPos: 0.5
+    vHeadPos: 0.618
+  display:
+    position: left  #模型位置
+    width: 150       #模型宽度
+    height: 300      #模型高度
+    superSample: 2
+    hOffset: 40     # 横坐标偏移
+    vOffset: 50     # 纵坐标偏移
+  mobile:
+    show: true      #是否在手机端显示
+    scale: 0.5
+  react:
+    opacityDefault: 1
+    opacityOnHover: 0.2
+  dialog: 
+    enable: true
+    hitokoto: true
+    # script:
+    #   'every idle 10s': 'text1'
+    #   'tap face': 'text2'
+    #   'tap body': 'text3'
+all_minifier: true
+image_minifier:
+  enable: false
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
+  silent: false
+  exclude: "**/*.svg"
+
+lazyload:
+  enable: true
+  onlypost: false # optional
+  loadingImg: # optional eg ./images/loading.gif
+  isSPA: false # optional
+
+webPushNotification:
+  webpushrKey: "L9-CaP_yXKrdnS0nzTlIa-XOWmx2hmPW4-dkdPKtONo"
+  webpushrAuthToken: "11579"
+  trackingCode: "BNKbIvI_iJuSO3IFPx6D_gSjEve8q7iuxD8qMSMRfWMq0JSx0xRSadjd-x6TX8XI537fa3c7fGsgeic-ejD6l-o"
+
+baidu_url_submit:
+  count: 1               # 提交最新的多少个链接
+  host: www.extingstudio.com    # 在百度站长平台中添加的域名
+  token: CzmiCGynNrcFpWgM      # 秘钥
+  path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
@@ -109,6 +166,7 @@ theme: volantis
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo:
-    github: git@github.com:BillScott1024/billscott1024.github.io.git,master
+  - type: git
+    repo:
+      github: git@github.com:BillScott1024/billscott1024.github.io.git,master
+  - type: baidu_url_submitter                         # 这是新加的主动推送
