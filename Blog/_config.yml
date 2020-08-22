@@ -119,7 +119,7 @@ live2d:
     hOffset: 40     # 横坐标偏移
     vOffset: 50     # 纵坐标偏移
   mobile:
-    show: true      #是否在手机端显示
+    show: false      #是否在手机端显示
     scale: 0.5
   react:
     opacityDefault: 1
@@ -146,7 +146,7 @@ lazyload:
   enable: true
   onlypost: false # optional
   loadingImg: # optional eg ./images/loading.gif
-  isSPA: false # optional
+  isSPA: true # optional
 
 webPushNotification:
   webpushrKey: "L9-CaP_yXKrdnS0nzTlIa-XOWmx2hmPW4-dkdPKtONo"
@@ -158,6 +158,16 @@ baidu_url_submit:
   host: www.extingstudio.com    # 在百度站长平台中添加的域名
   token: CzmiCGynNrcFpWgM      # 秘钥
   path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里
+
+
+
+
+backup:
+    type: git
+    theme: volantis
+    repository:
+       github: git@github.com:BillScott1024/ESBlogRepo.git,backup
+       # gitcafe: git@github.com:xxx/xxx.git,branchName
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
