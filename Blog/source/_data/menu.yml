@@ -29,3 +29,6 @@
         - name: 留言板
           icon: fas fa-file-signature
           url: comments/
+        - name: 番剧
+          icon: fas fa-tv
+          url: bangumis/index.html

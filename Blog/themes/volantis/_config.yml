@@ -179,9 +179,6 @@ navbar:
     - name: 关于
       icon: fas fa-info-circle
       url: about/
-    - name: 工具箱
-      icon: fas fa-tools
-      url: tools/
   search: 搜索我的文章🔍...   # Search bar placeholder
 
 
@@ -666,8 +663,8 @@ comments:
   # Valine
   # https://valine.js.org/
   valine: # 请将 appId appKey 修改为自己的，否则评论数据是共享的。
-    appId: p9EoaNrAJAtz2IlbAp0sRau5-gzGzoHsz # your appId
-    appKey: u1u31xRPwMb606uCUaaCaV3A # your appKey
+    appId: OcH33On9kof4QnMnSaAOmDhj-MdYXbMMI # your appId
+    appKey: V50w1D4JtUK9s3VxbnTtg5XJ # your appKey
     js: https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js
     meta: nick,mail,link # valine comment header info
     requiredFields: ['nick']
@@ -714,7 +711,7 @@ comments:
     # If you want everyone visiting your site to see a uniform language, you can set a force language value
     # Available values: en  | zh-CN | (and many more)
     # More i18n info: https://github.com/MiniValine/minivaline-i18n
-    lang:
+    lang: zh-CN
     # Expression Url.
     # https://github.com/MiniValine/MiniValine/blob/master/.github/FAQ.md#how-to-customize-emoticons
     emoticonUrl:
