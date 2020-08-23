@@ -154,14 +154,13 @@ webPushNotification:
   trackingCode: "BNKbIvI_iJuSO3IFPx6D_gSjEve8q7iuxD8qMSMRfWMq0JSx0xRSadjd-x6TX8XI537fa3c7fGsgeic-ejD6l-o"
 
 baidu_url_submit:
-  count: 1               # 提交最新的多少个链接
+  count: 3               # 提交最新的多少个链接
   host: www.extingstudio.com    # 在百度站长平台中添加的域名
   token: CzmiCGynNrcFpWgM      # 秘钥
   path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里
 
 
-
-
+# hexo-backup 插件
 backup:
     type: git
     theme: volantis
@@ -179,4 +178,6 @@ deploy:
   - type: git
     repo:
       github: git@github.com:BillScott1024/billscott1024.github.io.git,master
+      coding: git@e.coding.net:extingstudio1/extingstudio1/extingstudio1.git,master
+      gitee: git@gitee.com:exting/exting.git,master
   - type: baidu_url_submitter                         # 这是新加的主动推送
