@@ -160,7 +160,7 @@ widget:
     header:
       icon: fas fa-folder-open
       title: 文章分类
-      url: /blog/categories/
+      url: /categories/
   # ---------------------------------------
   # tagcloud widget
   tagcloud:
@@ -169,7 +169,7 @@ widget:
     header:
       icon: fas fa-tags
       title: 热门标签
-      url: /blog/tags/
+      url: /tags/
     min_font: 14
     max_font: 35
     color: true
@@ -436,6 +436,7 @@ plugins:
     animation: nprogress # nprogress, circle
     banUrl:              # 被屏蔽的 url 地址将不启用 pjax 跳转，可以在控制台下使用 window.location.pathname 获取
       # - '/about/index.html'
+      - '/shuoshuo/'
 
 
   # Artitalk https://artitalk.js.org
@@ -462,9 +463,9 @@ plugins:
 ############################### Comments ###############################
 comments:
   path:                    # 全局评论地址 仅支持 valine , miniValine , disqus , gitalk
-  placeholder: 快来评论吧~  # 评论占位提示 仅支持 valine & miniValine
+  placeholder: 粘贴图片到此处可以自动上传，请填写邮箱以收到及时回复哦~  # 评论占位提示 仅支持 valine & miniValine
   title: <i class='fas fa-comments'></i> 评论
-  subtitle: 拖拽图片可上传
+  subtitle:
   service: valine # valine, minivaline, disqus, gitalk, vssue, livere, isso, hashover
   # Valine
   # https://valine.js.org/
@@ -539,8 +540,8 @@ search:
     apiId:
 
 analytics:
-  busuanzi: #https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
+  busuanzi: https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
   leancloud:
-    app_id: # u9j57bwJod4EDmXWdxrwuqQT-MdYXbMMI
-    app_key: # jfHtEKVE24j0IVCGHbvuFClp
+    app_id: OcH33On9kof4QnMnSaAOmDhj-MdYXbMMI
+    app_key: V50w1D4JtUK9s3VxbnTtg5XJ
     custom_api_server: # 一般不需要写，除非自定义了 API Server
