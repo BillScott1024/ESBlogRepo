@@ -6,6 +6,7 @@ thumbnail: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/20180902002437.pn
 date: 2017-09-05 
 tags: 博客   
 music-id: 1297750680
+categories: [博客]
 --- 
 
 

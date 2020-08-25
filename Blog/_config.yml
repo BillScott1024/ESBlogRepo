@@ -144,11 +144,11 @@ image_minifier:
   silent: false
   exclude: "**/*.svg"
 
-lazyload:
-  enable: true
-  onlypost: true # optional
-  loadingImg: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/icon/img-loading-bilibili.gif # optional eg ./images/loading.gif
-  isSPA: true # optional
+# lazyload:
+#   enable: true
+#   onlypost: true # optional
+#   loadingImg: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/icon/img-loading-bilibili.gif # optional eg ./images/loading.gif
+#   isSPA: true # optional
 
 webPushNotification:
   webpushrKey: "L9-CaP_yXKrdnS0nzTlIa-XOWmx2hmPW4-dkdPKtONo"
@@ -183,6 +183,7 @@ bangumi:
   webp: true # 番剧封面使用webp格式(此格式在safari浏览器下不显示，但是图片大小可以缩小 100 倍左右)
   progress: false # 获取番剧数据时是否显示进度条，默认true
 
+use_cdn: true
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/

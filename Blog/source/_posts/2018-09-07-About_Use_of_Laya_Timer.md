@@ -6,6 +6,9 @@ thumbnail: https://layaair.ldc.layabox.com/api/?category=Core&class=laya.utils.T
 date: 2018-09-07
 tags: LayaBox  
 music-id: 533455199
+categories: 
+ - [LayaBox]
+ - [游戏]
 --- 
 
 

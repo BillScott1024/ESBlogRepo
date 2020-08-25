@@ -6,6 +6,7 @@ thumbnail: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/v2-f848e7e27202bd
 date: 2019-11-19
 tags: JavaScript
 music-id: 1396602869
+categories: [JavaScript]
 ---
 
 

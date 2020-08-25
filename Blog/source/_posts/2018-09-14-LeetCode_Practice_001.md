@@ -5,6 +5,7 @@ description: 1. 两数之和. 给定一个整数数组和一个目标值，找�
 date: 2018-09-11
 tags: LeetCode  
 music-id: 443292374
+categories: [LeetCode]
 --- 
 
 

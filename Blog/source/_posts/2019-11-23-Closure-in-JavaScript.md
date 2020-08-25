@@ -5,6 +5,7 @@ description: 函数与对其状态即词法环境（lexical environment）的引
 thumbnail: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/d3254348-13a1-4d50-af7d-393051ee62c2.jpg
 date: 2019-11-23
 tags: JavaScript
+categories: [JavaScript]
 music:
   server: netease   # netease, tencent, kugou, xiami, baidu
   type: song        # song, playlist, album, search, artist

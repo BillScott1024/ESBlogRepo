@@ -6,6 +6,7 @@ thumbnail: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/20190911194932.pn
 date: 2019-09-10
 tags: Git
 music-id: 1373225817
+categories: [Git]
 --- 
 
 

@@ -6,6 +6,7 @@ thumbnail: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/20181106115306.pn
 date: 2018-11-06
 tags: Mac  
 music-id: 1293951677
+categories: [软件, Mac]
 --- 
 
 -------

@@ -5,6 +5,7 @@ description: 在JavaScript中咱们以前主要用关键var来定义变量，ES6
 date: 2018-09-11
 tags: JavaScript  
 music-id: 520459382
+categories: [JavaScript]
 --- 
 
 
@@ -63,20 +64,20 @@ const实际上保证的，并不是变量的值不得改动，而是变量指向
 在for循环中使用var声明的循环变量，会跳出循环体污染当前的函数。
 
 ```
-for(var   = 0;   < 5;  ++) {
+for(var  = 0;  < 5; ++) {
   setTimeout(() => {
-    console.log( ) //5, 5, 5, 5, 5
+    console.log() //5, 5, 5, 5, 5
   }, 0)
 }
-console.log( ) //5  跳出循环体污染外部函数
+console.log() //5 跳出循环体污染外部函数
 
 //将var改成let之后
-for(let   = 0;   < 5;  ++) {
+for(let  = 0;  < 5; ++) {
   setTimeout(() => {
-    console.log( ) // 0,1,2,3,4
+    console.log() // 0,1,2,3,4
   }, 0)
 }
-console.log( )//i is not defined 
+console.log()//i is not defined 
 ```
 ### 无法污染外部函数
 在实际开发中，我们选择使用var、let还是const，取决于我们的变量是不是需要更新，通常我们希望变量保证不被恶意修改，而使用大量的const。使用const声明，声明一个对象的时候，也推荐使用const，当你需要修改声明的变量值时，使用let，var能用的场景都可以使用let替代。
@@ -477,8 +478,8 @@ const obj = {
   a: 1,
   b: 2,
   *[Symbol.iterator]() {
-    for(let   in obj) {
-      yield [ , obj[ ]]
+    for(let  in obj) {
+      yield [, obj[]]
     }
   }
 }
