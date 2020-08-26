@@ -316,6 +316,8 @@ footer:
   # layout of footer: [aplayer, social, license, info, copyright]
   layout: [aplayer, social, license, analytics, info, copyright, record, badges]
   social:
+    # - avatar: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/wechat.png
+    #   url: /
     - icon: fas fa-rss
       url: atom.xml
     - icon: fas fa-envelope
@@ -330,8 +332,7 @@ footer:
     #   url: /
     # - img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/weibo.png
     #   url: /
-    # - avatar: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/wechat.png
-    #   url: /
+
   # site source
   source: https://github.com/BillScott1024/billscott1024.github.io
   # analytics using leancloud
@@ -352,7 +353,8 @@ footer:
            <a href="https://www.aliyun.com/"> <img src="https://img.shields.io/badge/DNS-%E9%98%BF%E9%87%8C%E4%BA%91-orange" style="float:center;"/> </a>
            <a href="https://www.jsdelivr.com/"> <img src="https://img.shields.io/badge/CDN-JsDelivr-blueviolet" style="float:center;"/> </a>
            <a href="https://volantis.js.org/"> <img src="https://img.shields.io/badge/Theme-Volantis-blue" style="float:center;"/> </a>
-           <a href="https://volantis.js.org/"> <img src="https://img.shields.io/badge/Theme-Volantis-blue" style="float:center;"/> </a>'
+           <a href="https://github.com/BillScott1024/billscott1024.github.io"> <img src="https://img.shields.io/github/repo-size/BillScott1024/billscott1024.github.io?color=green&label=%E6%9C%AC%E7%AB%99%E5%A4%A7%E5%B0%8F&logo=Git&logoColor=white" style="float:center;"/> </a>
+           <a href="https://github.com/BillScott1024/billscott1024.github.io"> <img src="https://img.shields.io/github/last-commit/BillScott1024/billscott1024.github.io?color=blue&label=%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0&logo=Github" style="float:center;"/> </a>'
 
 
 ############################### Plugins ###############################

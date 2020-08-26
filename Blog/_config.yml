@@ -185,6 +185,19 @@ bangumi:
 
 use_cdn: true
 
+# 可以在无需修改主题文件的情况下在 head 和 body 中添加各种标签。
+# meta 和 link 对应 head 中的 <meta> 和 <link> 标签。script 可以在 body 末尾导入 js 文件。
+
+import:
+  meta:
+    # - <meta name="msapplication-TileColor" content="#ffffff">
+  link:
+    # - <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png">
+  script:
+    # 51La 统计
+    - <script type="text/javascript" src="https://js.users.51.la/20919671.js"></script>
+    # U-Meng 统计
+    - <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279216587'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1279216587%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
@@ -197,5 +210,5 @@ deploy:
     repo:
       github: git@github.com:BillScott1024/billscott1024.github.io.git,master
       coding: git@e.coding.net:extingstudio1/extingstudio1/extingstudio1.git,master
-      gitee: git@gitee.com:exting/exting.git,master
+      # gitee: git@gitee.com:exting/exting.git,master
   - type: baidu_url_submitter                         # 这是新加的主动推送
