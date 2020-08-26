@@ -1,6 +1,3 @@
 [submodule "Blog/themes/hexo-theme-volantis"]
 	path = Blog/themes/volantis
 	url = git@github.com:BillScott1024/hexo-theme-volantis.git
-[submodule "volantis"]
-	path = volantis
-	url = G:\\Git\\PersonalProject\\ESBlogRepo\\Blog\\themes\\volantis
