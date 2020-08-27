@@ -5,8 +5,8 @@
 navbar:
   visiable: auto # always, auto
   logo: # choose [img] or [icon + title]
-    img: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar/favicon-cicle.png
-    icon: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar/favicon-cicle.png
+    img: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-favicon-cicle.png
+    icon: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-favicon-cicle.png
     title:
 
 
@@ -20,7 +20,7 @@ cover:
     archive: true
     others: false # can be written in front-matter 'cover: true'
   # background: https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/033.jpg
-  logo: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar/favicon-cicle.png
+  logo: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-favicon-cicle.png
   title: ''
   subtitle: ''
   search: 搜索我的文章🔍 # search bar placeholder
@@ -49,8 +49,8 @@ meta:
   # 文章标题
   title: # 暂无配置
   # 默认文章作者（可在front-matter中覆盖）
-  author:
-    avatar: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar/avatar.jpg
+  author: 
+    avatar: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-avatar.jpg
     name: Akimoto
     url: /
   # 文章创建日期
@@ -134,7 +134,7 @@ widget:
   blogger:
     class: blogger
     display: [desktop, mobile] # [desktop, mobile]
-    avatar: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar/avatar.jpg
+    avatar: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-avatar.jpg
     shape: rectangle # circle, rectangle
     url: /about/
     title:
@@ -187,8 +187,8 @@ widget:
     height: 100px  # Automatic height if not set
     fancybox: true
     images:
-      - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/pay/weipayimg.jpg
-      - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/pay/alipayimg.jpg
+      - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-wechat.jpg
+      - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-alipay.png
   # ---------------------------------------
   # webinfo widget
   webinfo:
@@ -284,8 +284,8 @@ article:
       donate:
         enable: true
         images:
-          - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/pay/weipayimg.jpg
-          - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/pay/alipayimg.jpg
+          - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-wechat.jpg
+          - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-alipay.png
     # 文章底部信息
     bottom_meta:
 
@@ -366,7 +366,7 @@ plugins:
     enable: true
     js: https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js
     onlypost: true
-    loadingImg: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/icon/img-loading-bilibili.gif # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg
+    loadingImg: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/icons/img-loading-bilibili.gif # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg
     blurIn: true # 模糊加载效果 （loadingImg为空时有效）
 
 
@@ -403,19 +403,15 @@ plugins:
       # - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/052.jpg
       # - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/054.jpg
       # - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/056.jpg
-      - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/background/cover-001.jpg
-      - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/background/cover-002.jpg
-      - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/background/cover-003.jpg
-      - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/background/cover-004.jpg
-      - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/background/cover-005.png
-      - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/background/cover-006.png
-      - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/background/cover-007.jpg
-      - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/background/cover-008.jpg
-      - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/background/cover-009.png
-      - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/background/cover-010.png
-      - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/background/cover-011.png
-      - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/background/cover-012.jpg
-      - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/background/cover-013.png
+      - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/covers/cover-01.jpg
+      - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/covers/cover-02.jpg
+      - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/covers/cover-03.png
+      - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/covers/cover-04.jpg
+      - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/covers/cover-05.jpg
+      - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/covers/cover-06.png
+      - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/covers/cover-07.jpg
+      - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/covers/cover-08.jpg
+      - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/covers/cover-09.jpg
 
   # APlayer is only available in mainland China.
   # APlayer config: https://github.com/metowolf/MetingJS
@@ -484,7 +480,7 @@ comments:
     meta: nick,mail,link # valine comment header info
     requiredFields: ['nick','mail']
     enableQQ: true # Unstable avatar link
-    avatar: robohash # gravatar style https://valine.js.org/avatar
+    avatar: wavatar # gravatar style https://valine.js.org/avatar
     pageSize: 10 # comment list page size
     lang: zh-cn
     highlight: true
