@@ -133,16 +133,9 @@ live2d:
     #   'every idle 10s': 'text1'
     #   'tap face': 'text2'
     #   'tap body': 'text3'
+
+# 压缩
 all_minifier: true
-# image_minifier:
-#   enable: false
-#   interlaced: false
-#   multipass: false
-#   optimizationLevel: 2
-#   pngquant: false
-#   progressive: false
-#   silent: false
-#   exclude: "**/*.svg"
 
 # lazyload:
 #   enable: true
@@ -170,6 +163,8 @@ backup:
        github: git@github.com:BillScott1024/ESBlogRepo.git,backup
        # gitcafe: git@github.com:xxx/xxx.git,branchName
 
+
+# hexo bangumi -u
 bangumi:
   enable: true    # 是否启用
   path: bangumis/index.html # 番剧页面路径，默认bangumis/index.html
