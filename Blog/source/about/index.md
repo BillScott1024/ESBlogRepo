@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 关于
+title: About Me
 body: [article]
 meta:
   header: []
@@ -8,8 +8,14 @@ meta:
 sidebar: []
 
 ---
+# 简介
 
-一个游戏开发者，业余摄影师，喜欢旅行，读书，看电影。
+{% checkbox green checked, 绿色 + 游戏开发者 %}
+{% checkbox yellow checked, 黄色 + 业余摄影师 %}
+{% checkbox cyan checked, 青色 + 喜欢旅行 %}
+{% checkbox blue checked, 蓝色 + 会弹吉他 %}
+{% checkbox checked, 沉迷代码 %}
+
 
 {% ghcard BillScott1024 %}
 
