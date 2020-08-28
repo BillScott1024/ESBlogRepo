@@ -24,12 +24,12 @@ jobs:
     - name: Setup Hexo Dependencies and Generate Public Files
       env:
         YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }} 
-      run: | 
+      run: |
         cd Blog/
-        npm install hexo-cli -g
-        npm install yuque-hexo -g 
-        npm install 
-        npm run start 
+        npm install -g cnpm –registry=https://registry.npm.taobao.org
+        cnpm install hexo-cli -g
+        cnpm install yuque-hexo -g
+        cnpm install
     # from https://github.com/peaceiris/actions-gh-pages 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
