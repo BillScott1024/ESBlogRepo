@@ -39,7 +39,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with: 
         deploy_key: ${{ secrets.SSH_PRIVATE_KEY }}
-        external_repository: 用户名/仓库
+        external_repository: BillScott1024/ESBlogRepo
         publish_branch: master
         publish_dir: ./public
         commit_message: ${{ github.event.head_commit.message }}
