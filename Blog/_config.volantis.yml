@@ -471,7 +471,7 @@ plugins:
 
 ############################### Comments ###############################
 comments:
-  path: /404/                    # 全局评论地址 仅支持 valine , miniValine , disqus , gitalk
+  path:                    # 全局评论地址 仅支持 valine , miniValine , disqus , gitalk
   placeholder: 粘贴图片到此处可以自动上传，请填写邮箱以收到及时回复哦~  # 评论占位提示 仅支持 valine & miniValine
   title: <i class='fas fa-comments'></i> 评论
   subtitle:
@@ -493,7 +493,7 @@ comments:
     mathJax: false
     # 新增参数
     tagMeta: [“博主”,“小伙伴”,“访客”]
-    master: 99F30FA72C5A1DA511002A1122A78A36
+    master: 99f30fa72c5a1da511002a1122a78a36
     friends:
     metaPlaceholder: {“nick”:“昵称 / QQ 号”,“mail”:“邮箱 (必填)”}
     

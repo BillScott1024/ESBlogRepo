@@ -14,14 +14,19 @@ sidebar: []
 {% p center logo large, About Me %}
 {% p center small,关于我 & 我的博客 %}
 
+
+{% tabs tab-id %}
+
+<!-- tab 关于 <i class="far fa-id-card"></i> -->
+
 # 简介 📃
 
 
-{% radio green checked,  游戏开发者 %}
-{% radio yellow checked, 业余摄影师 %}
-{% radio cyan checked, 喜欢旅行 %}
-{% radio blue checked, 会弹吉他 %}
-{% radio checked, 沉迷代码 %}
+{% radio green checked,  游戏开发者 👨‍💻 %}
+{% radio yellow checked, 业余摄影师 📸 %}
+{% radio cyan checked, 喜欢旅行 🛩 %}
+{% radio blue checked, 会弹吉他 🎶 %}
+{% radio checked, 沉迷代码 👨‍💻 %}
 
 <br>
 <br>
@@ -70,7 +75,7 @@ sidebar: []
 {% checkbox blue checked, 51统计页面 [51统计](https://web.51.la/) %}
 
 {% checkbox blue, 点击烟花效果 %}
-{% checkbox blue, 动态线条背景 %}
+{% checkbox blue checked, 动态线条背景 %}
 
 <br>
 <br>
@@ -120,7 +125,7 @@ sidebar: []
 
 {% timenode 2017-07-18 购买域名 %}
 
-{% radio green checked, 在 [百度智能云](https://cloud.baidu.com/) 购买域名 ~~extingstudio.top~~，并解析GitHub Pages到自定义域名 %}
+{% radio green checked, 在 [百度智能云](https://cloud.baidu.com/) 购买域名 ~~extingstudio.top~~，并解析 GitHub Pages 到自定义域名 %}
 
 {% endtimenode %}
 
@@ -134,5 +139,75 @@ sidebar: []
 
 
 {% endtimeline %}
+
+<!-- endtab -->
+
+<!-- tab 摄影 <i class="fas fa-camera"></i> -->
+
+{% gallery stretch, 4 %}
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_001.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_002.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_003.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_004.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_005.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_006.JPG)
+
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_008.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_009.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_010.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_011.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_012.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_013.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_014.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_015.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_016.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_017.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_018.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_019.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_020.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_021.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_022.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_023.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_024.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_025.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_026.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_027.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_028.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_029.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_030.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_031.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_032.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_033.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_034.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_035.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_036.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_037.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_039.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_040.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_041.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_042.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_043.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_044.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_045.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_046.JPG)
+![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_047.JPG)
+
+
+{% endgallery %}
+
+<!-- endtab -->
+
+<!-- tab 生活 <i class="fas fa-camera"></i> -->
+  生活 buiding...
+<!-- endtab -->
+
+<!-- tab Like <i class="fas fa-camera"></i> -->
+  Like buiding...
+<!-- endtab -->
+
+{% endtabs %}
+
+
+
 
 
