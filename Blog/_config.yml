@@ -137,12 +137,6 @@ live2d:
 # 压缩
 all_minifier: true
 
-# lazyload:
-#   enable: true
-#   onlypost: true # optional
-#   loadingImg: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/icon/img-loading-bilibili.gif # optional eg ./images/loading.gif
-#   isSPA: true # optional
-
 webPushNotification:
   webpushrKey: "L9-CaP_yXKrdnS0nzTlIa-XOWmx2hmPW4-dkdPKtONo"
   webpushrAuthToken: "11579"
