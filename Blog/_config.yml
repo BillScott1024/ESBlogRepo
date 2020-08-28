@@ -164,7 +164,8 @@ backup:
        # gitcafe: git@github.com:xxx/xxx.git,branchName
 
 
-# hexo bangumi -u
+# 追番页 更新 hexo bangumi -u
+
 bangumi:
   enable: true    # 是否启用
   path: bangumis/index.html # 番剧页面路径，默认bangumis/index.html
@@ -205,9 +206,16 @@ import:
     # - <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png">
   script:
     # 51La 统计
-    - <script type="text/javascript" src="https://js.users.51.la/20919671.js"></script>
+    - '<script type="text/javascript" src="https://js.users.51.la/20919671.js"></script>'
     # U-Meng 统计
     - <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279216587'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1279216587%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+  
     # webpushr
     - <!-- start webpushr tracking code --> <script>(function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('setup',{'key':'BNKbIvI_iJuSO3IFPx6D_gSjEve8q7iuxD8qMSMRfWMq0JSx0xRSadjd-x6TX8XI537fa3c7fGsgeic-ejD6l-o' });</script><!-- end webpushr tracking code -->
+    # 彩条
+    - <!--动态线条背景--><script type="text/javascript"color="112, 128, 144" opacity='0.8' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+
+
+
 

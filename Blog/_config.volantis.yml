@@ -137,10 +137,15 @@ widget:
     avatar: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-avatar.jpg
     shape: rectangle # circle, rectangle
     url: /about/
-    title:
+    title: '忆星辰'
     subtitle:
-    jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
+    jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
     social: true
+    poetry: ["Follow Yor Heart", "人生在勤，不索何获","红豆生南国，春来发几枝？愿君多采撷，此物最相思","欲将沉醉换悲凉，清歌莫断肠","慷慨唯霜雪，相赠眉间一道疤。",
+            "I Love You", "花损芳谢，忆昨残红落街。风也清绝，霜也凌烈，独抱浓愁宿月，泪融残粉似雪。","烟自梅初柴屋借，火从四月暮云偷，支一瓮天地煮星斗。",
+            "想来从年少一路到古稀，青天共明月，我共你。","骗尽多情是戏文，骗过天下是忠贞。",
+            "还在看这里吗？", "当你觉得孤独无助时，想一想还有十几亿的细胞只为了你一个人而活。",
+            "今晚月色真美", "Only they who fulfill their duties in everyday matters will fulfill them on great occasions","流风不识曲，将弦乱拨，知音者，会寻声来和。"]
   # ---------------------------------------
   # toc widget (valid only in articles)
   toc:
@@ -476,7 +481,7 @@ comments:
   valine: # 请将 appId appKey 修改为自己的，否则评论数据是共享的。
     appId: OcH33On9kof4QnMnSaAOmDhj-MdYXbMMI # your appId
     appKey: V50w1D4JtUK9s3VxbnTtg5XJ # your appKey
-    # js: https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js
+    js: https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js
     meta: nick,mail,link # valine comment header info
     requiredFields: ['nick','mail']
     enableQQ: true # Unstable avatar link
@@ -486,6 +491,12 @@ comments:
     highlight: true
     visitor: true
     mathJax: false
+    # 新增参数
+    tagMeta: [“博主”,“小伙伴”,“访客”]
+    master: 99F30FA72C5A1DA511002A1122A78A36
+    friends:
+    metaPlaceholder: {“nick”:“昵称 / QQ 号”,“mail”:“邮箱 (必填)”}
+    
 
 
 
