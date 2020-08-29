@@ -36,8 +36,7 @@ jobs:
        
     - name: Deploy blog
       run: |
-        cd Blog/
-        git init
+        cd ..
         git clone "https://${{ secrets.GH_REF }}" deploy_git
         mv ./deploy_git/.git ./public/
         cd ./public
