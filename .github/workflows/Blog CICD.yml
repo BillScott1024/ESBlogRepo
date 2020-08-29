@@ -29,10 +29,9 @@ jobs:
         npm install yuque-hexo -g
         npm install
         npm install -g npm-check
-        npm-check
+        npm-check -u
         npm install -g npm-upgrade
         npm-upgrade
-        npm-check -u
         yuque-hexo sync
     - name: Generate files
       run: |
