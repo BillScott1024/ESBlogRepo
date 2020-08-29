@@ -46,7 +46,7 @@ jobs:
        
     - name: Deploy To Github Pages
       env: 
-       Github_Pages: BillScott1024/billscott1024.github.io
+       Github_Pages: github.com/BillScott1024/billscott1024.github.io.git
        Github_Token: ${{ secrets.token_GithubAPI }}
       run: |
         cd Blog/
@@ -63,3 +63,21 @@ jobs:
         git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
         git status
         git push --force --quiet "https://${Github_Token}@${Github_Pages}" master:master
+        
+    - name: Deploy To Coding Pages
+      env: 
+        Coding_Pages: e.coding.net/extingstudio1/extingstudio1/extingstudio1.git
+        Coding_Token: ${{ secrets.token_CodingAPI }}
+        Coding_Username: ${{ secrets.Username_Coding }} 
+        run: | 
+          git clone https://${Coding_Username}:${Coding_Token}@${Coding_Pages} .coding_pages
+          cd .coding_pages 
+          git checkout master
+          cd ../ 
+          rm -r ./public/.git/
+          mv .coding_pages/.git/ ./public/
+          cd ./public/
+          git add . 
+          git commit -F ../commit-message.log
+          git push --force --quiet "https://${Coding_Username}:${Coding_Token}@${Coding_Pages}" master:master
+
