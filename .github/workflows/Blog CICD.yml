@@ -32,6 +32,9 @@ jobs:
         npm-check -u
         npm install -g npm-upgrade
         npm-upgrade
+        yes
+        yes
+        yes
         yuque-hexo sync
     - name: Generate files
       run: |
