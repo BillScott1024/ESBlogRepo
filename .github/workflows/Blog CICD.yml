@@ -39,13 +39,12 @@ jobs:
         cd Blog/
         hexo generate
        
-    - name: Deploy blog
-      run: |
-        git clone "https://${{ secrets.GH_REF }}" deploy_git
-        mv ./deploy_git/.git ./public/
-        cd ./public
-        git config user.name "Akimoto"
-        git config user.email "jaxsonwang@foxmail.com"
-        git add .
-        git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-        git push --quiet "https://${{ secrets.GH_TOKEN }}@${{ secrets.GH_REF }}" master:master
+    # from https://github.com/peaceiris/actions-gh-pages
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        external_repository: BillScott1024/billscott1024.github.io
+        publish_branch: master
+        publish_dir: ./public
+        commit_message: ${{ github.event.head_commit.message }}
