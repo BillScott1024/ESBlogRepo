@@ -42,7 +42,7 @@ jobs:
         
     - name: Deploy To Coding Pages
       env: 
-        Coding_Pages: e.coding.net/extingstudio1/extingstudio1.git
+        Coding_Pages: git@e.coding.net:extingstudio1/extingstudio1/extingstudio1.git
         Coding_Token: ${{ secrets.token_CodingAPI }}
         Coding_Username: ${{ secrets.Username_Coding }} 
       run: | 
