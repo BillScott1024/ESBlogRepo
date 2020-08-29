@@ -25,10 +25,11 @@ jobs:
     - name: Install dependencies
       run: |
         cd Blog/
+        npm install
         npm install hexo-cli@latest -g
         npm install yuque-hexo -g
         npm install nunjucks -g
-        npm install
+
         yuque-hexo sync
     - name: Generate files
       run: |
