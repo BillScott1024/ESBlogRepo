@@ -27,6 +27,7 @@ jobs:
         cd Blog/
         npm install hexo-cli -g
         npm install yuque-hexo -g
+        npm install nunjucks -g
         npm install
         yuque-hexo sync
     - name: Generate files
