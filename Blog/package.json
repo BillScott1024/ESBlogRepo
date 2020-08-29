@@ -7,10 +7,9 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-     "start": "yuque-hexo clean && yuque-hexo sync && hexo clean && hexo generate",
-     "deploy": "hexo deploy",
-     "sync": "yuque-hexo sync",
-     "clean:yuque": "yuque-hexo clean"
+    "start": "yuque-hexo clean && yuque-hexo sync && hexo clean && hexo generate",
+    "sync": "yuque-hexo sync",
+    "clean:yuque": "yuque-hexo clean"
   },
   "hexo": {
     "version": "5.0.2"
@@ -47,13 +46,13 @@
   "devDependencies": {
     "yuque-hexo": "^1.6.0"
   },
-   "yuqueConfig": {
+  "yuqueConfig": {
     "postPath": "source/_posts",
     "cachePath": "yuque.json",
     "mdNameFormat": "slug",
     "adapter": "hexo",
     "concurrency": 5,
-    "baseUrl": "https://www.yuque.com/api/v2",
+    "baseUrl": "https://wepie.yuque.com/api/v2",
     "login": "ebsulo",
     "repo": "blog",
     "token": "CND2KtyDN6hPkQAYdUu8FCJ3wCCIK81u1sh9Q0WK",
