@@ -44,7 +44,7 @@
     "yuque-hexo": "^1.6.5"
   },
   "devDependencies": {
-    "yuque-hexo": "^1.6.0"
+    "yuque-hexo": "^1.6.5"
   },
   "yuqueConfig": {
     "postPath": "source/_posts/yuque",
