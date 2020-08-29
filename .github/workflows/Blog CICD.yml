@@ -36,7 +36,6 @@ jobs:
         yuque-hexo sync
     - name: Generate files
       run: |
-        cd ..
         cd Blog/
         hexo generate
         
