@@ -25,13 +25,14 @@ jobs:
     - name: Install dependencies
       run: |
         cd Blog/
-        npm install
-        npm install hexo-cli@latest -g
-        npm install yuque-hexo@latest -g
-        npm install nunjucks@latest -g
-        npm un hexo-renderer-marked
-        npm i hexo-renderer-markdown-it -g
-        npm install markdown-it-emoji -g
+        npm install -g cnpm --registry=https://registry.npm.taobao.org
+        cnpm install
+        cnpm install hexo-cli@latest -g
+        cnpm install yuque-hexo@latest -g
+        cnpm install nunjucks@latest -g
+        cnpm un hexo-renderer-marked
+        cnpm i hexo-renderer-markdown-it -g
+        cnpm install markdown-it-emoji -g
 
         yuque-hexo sync
     - name: Generate files
