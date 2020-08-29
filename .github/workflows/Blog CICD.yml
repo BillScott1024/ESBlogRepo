@@ -49,13 +49,12 @@ jobs:
        Github_Pages: github.com/BillScott1024/billscott1024.github.io
        Github_Token: ${{ secrets.token_GithubAPI }}
       run: |
-        cd ..
         git clone https://${Github_Pages} .github_pages
         cd .github_pages
         git checkout master
         cd ../
         ls
-        mv .github_pages/.git/ ./public/
+        mv .github_pages/ ./public/
         cd ./public/
         ls
         git status
