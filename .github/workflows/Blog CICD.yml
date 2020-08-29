@@ -1,6 +1,6 @@
 name: Blog CI/CD
  
-on: [push, repository_dispatch]
+on: [repository_dispatch]
  
 jobs:
   blog-cicd:
