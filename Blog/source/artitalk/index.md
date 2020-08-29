@@ -1,12 +1,9 @@
 ---
 layout: artitalk
-index: true
 title: 说说
-comments: false
-meta:
- header: [centertitle]
- body: [article, comments]
- footer: [updated]
+top_meta: false
+body: [article, comments]
+bottom_meta: false
 sidebar: [blogger, tagcloud, webinfo] # 放置任何你想要显示的侧边栏部件
 music:
  server: netease   # netease, tencent, kugou, xiami, baidu

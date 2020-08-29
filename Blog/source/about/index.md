@@ -1,13 +1,11 @@
 ---
-layout: page
+layout: post
 title: About Me
-meta:
-  header: []
-  body: [article, comments]
-  footer: []
+top_meta: false
+bottom_meta: [updated, share]
 valine:
   placeholder: 有什么想对我说的呢？
-sidebar: []
+sidebar: [blogger, tagcloud, webinfo]
 
 ---
 
@@ -151,7 +149,6 @@ sidebar: []
 ![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_004.JPG)
 ![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_005.JPG)
 ![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_006.JPG)
-
 ![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_008.JPG)
 ![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_009.JPG)
 ![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_010.JPG)

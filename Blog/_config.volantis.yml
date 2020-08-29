@@ -8,13 +8,47 @@ navbar:
     img: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-favicon-cicle.png
     icon: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-favicon-cicle.png
     title:
+  menu: 
+    - name: 博客
+      icon: fas fa-rss
+      url: /
+    - name: 归档
+      icon: fas fa-archive
+      url: archives/
+    - name: 标签
+      icon: fas fa-tags
+      url: tags/
+    - name: 分类
+      icon: fas fa-folder-open
+      url: categories/
+    - name: 友链
+      icon: fas fa-link
+      url: friends/
+    - name: 说说
+      icon: fas fa-comments
+      url: artitalk/
+    - name: 关于
+      icon: fas fa-info-circle
+      url: about/
+    - name: 工具箱
+      icon: fas fa-tools
+      url: tools/
+    - name: 更多
+      icon: fas fa-ellipsis-v
+      rows:
+        - name: 留言板
+          icon: fas fa-file-signature
+          url: comments/
+        - name: 番剧
+          icon: fas fa-tv
+          url: bangumis/index.html
 
 
 
 ############################### Layout ###############################
 cover:
-  use_for: blog # docs, blog
-  scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  height_scheme: half # full, half
+  layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
     archive: true
@@ -39,194 +73,194 @@ cover:
       url: friends/
     - name: 说说
       icon: fas fa-comments
-      url: shuoshuo/
+      url: artitalk/
     - name: 关于
       icon: fas fa-info-circle
       url: about/
 
-# meta library
-meta:
-  # 文章标题
-  title: # 暂无配置
-  # 默认文章作者（可在front-matter中覆盖）
-  author: 
-    avatar: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-avatar.jpg
-    name: Akimoto
-    url: /
-  # 文章创建日期
-  date:
-    icon: fas fa-calendar-alt
-    title: '发布于：'
-    format: 'll' # 日期格式 http://momentjs.com/docs/
-  # 文章更新日期
-  updated:
-    icon: fas fa-edit
-    title: '更新于：'
-    format: 'll' # 日期格式 http://momentjs.com/docs/
-  # 文章分类
-  category:
-    icon: fas fa-folder-open
-  # 文章浏览计数
-  counter:
-    icon: fas fa-eye
-    unit: '次阅读'
-  # 文章评论数量：只支持 valine
-  valinecount:
-    icon: fas fa-comment-dots
-    desc: '条评论' # 条评论
-  # 文章字数和阅读时长
-  wordcount:
-    icon_wordcount: fas fa-keyboard
-    icon_duration: fas fa-hourglass-half
-  # 文章标签
-  tags:
-    icon: fas fa-hashtag
-  # 分享
-  share:
-    - id: qrcode # 当id为qrcode时需要安装插件  npm i hexo-helper-qrcode
-      img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
-    - id: qq
-      img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png
-    - id: qzone
-      img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png
-    - id: weibo
-      img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png
-    # - id: telegram
-    #   img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png
-  # 链接
-  btns:
-    edit:
-      icon: fas fa-edit
-      title: 在GitHub上编辑此页
-      color: '#888'
-    repo: # 源码链接
-      icon: fas fa-file-code
-      title: 源码
-      color: '#508EF2'
-    bug: # BUG反馈链接
-      icon: fas fa-bug
-      title: BUG
-      color: '#FE5F58'
-    doubt: # 疑问链接
-      icon: fas fa-question-circle
-      title: 疑问
-      color: '#FFBD2B'
-    idea: # 建议链接
-      icon: fas fa-lightbulb
-      title: 建议
-      color: '#3DC550'
-    faq: # FAQ链接
-      icon: fas fa-comments
-      title: FAQ
-      color: '#29B1C9'
-    feedback: # 反馈链接
-      icon: fas fa-comment-dots
-      title: 反馈
-      color: '#1BCDFC'
+# # meta library
+# meta:
+#   # 文章标题
+#   title: # 暂无配置
+#   # 默认文章作者（可在front-matter中覆盖）
+#   author: 
+#     avatar: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-avatar.jpg
+#     name: Akimoto
+#     url: /
+#   # 文章创建日期
+#   date:
+#     icon: fas fa-calendar-alt
+#     title: '发布于：'
+#     format: 'll' # 日期格式 http://momentjs.com/docs/
+#   # 文章更新日期
+#   updated:
+#     icon: fas fa-edit
+#     title: '更新于：'
+#     format: 'll' # 日期格式 http://momentjs.com/docs/
+#   # 文章分类
+#   category:
+#     icon: fas fa-folder-open
+#   # 文章浏览计数
+#   counter:
+#     icon: fas fa-eye
+#     unit: '次阅读'
+#   # 文章评论数量：只支持 valine
+#   valinecount:
+#     icon: fas fa-comment-dots
+#     desc: '条评论' # 条评论
+#   # 文章字数和阅读时长
+#   wordcount:
+#     icon_wordcount: fas fa-keyboard
+#     icon_duration: fas fa-hourglass-half
+#   # 文章标签
+#   tags:
+#     icon: fas fa-hashtag
+#   # 分享
+#   share:
+#     - id: qrcode # 当id为qrcode时需要安装插件  npm i hexo-helper-qrcode
+#       img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
+#     - id: qq
+#       img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png
+#     - id: qzone
+#       img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png
+#     - id: weibo
+#       img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png
+#     # - id: telegram
+#     #   img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png
+#   # 链接
+#   btns:
+#     edit:
+#       icon: fas fa-edit
+#       title: 在GitHub上编辑此页
+#       color: '#888'
+#     repo: # 源码链接
+#       icon: fas fa-file-code
+#       title: 源码
+#       color: '#508EF2'
+#     bug: # BUG反馈链接
+#       icon: fas fa-bug
+#       title: BUG
+#       color: '#FE5F58'
+#     doubt: # 疑问链接
+#       icon: fas fa-question-circle
+#       title: 疑问
+#       color: '#FFBD2B'
+#     idea: # 建议链接
+#       icon: fas fa-lightbulb
+#       title: 建议
+#       color: '#3DC550'
+#     faq: # FAQ链接
+#       icon: fas fa-comments
+#       title: FAQ
+#       color: '#29B1C9'
+#     feedback: # 反馈链接
+#       icon: fas fa-comment-dots
+#       title: 反馈
+#       color: '#1BCDFC'
 
 # widget library
-widget:
+# widget:
   # The following can be written in `blog/source/_data/widget.yml`
   # ---------------------------------------
   # blogger info widget
-  blogger:
-    class: blogger
-    display: [desktop, mobile] # [desktop, mobile]
-    avatar: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-avatar.jpg
-    shape: rectangle # circle, rectangle
-    url: /about/
-    title: '忆星辰'
-    subtitle:
-    jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
-    social: true
-    poetry: ["Follow Your Heart.", "人生在勤，不索何获","红豆生南国，春来发几枝？愿君多采撷，此物最相思。","欲将沉醉换悲凉，清歌莫断肠。","慷慨唯霜雪，相赠眉间一道疤。",
-            "今晚月色真美。","I Love You.", "花损芳谢，忆昨残红落街。风也清绝，霜也凌烈，独抱浓愁宿月，泪融残粉似雪。","烟自梅初柴屋借，火从四月暮云偷，支一瓮天地煮星斗。",
-            "想来从年少一路到古稀，青天共明月，我共你。","骗尽多情是戏文，骗过天下是忠贞。",
-            "还在看这里吗？", "当你觉得孤独无助时，想一想还有十几亿的细胞只为了你一个人而活。",
-            "Only they who fulfill their duties in everyday matters will fulfill them on great occasions","流风不识曲，将弦乱拨，知音者，会寻声来和。"]
+  # blogger:
+  #   class: blogger
+  #   display: [desktop, mobile] # [desktop, mobile]
+  #   avatar: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-avatar.jpg
+  #   shape: rectangle # circle, rectangle
+  #   url: /about/
+  #   title: '忆星辰'
+  #   subtitle:
+  #   jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
+  #   social: true
+  #   poetry: ["Follow Your Heart.", "人生在勤，不索何获","红豆生南国，春来发几枝？愿君多采撷，此物最相思。","欲将沉醉换悲凉，清歌莫断肠。","慷慨唯霜雪，相赠眉间一道疤。",
+  #           "今晚月色真美。","I Love You.", "花损芳谢，忆昨残红落街。风也清绝，霜也凌烈，独抱浓愁宿月，泪融残粉似雪。","烟自梅初柴屋借，火从四月暮云偷，支一瓮天地煮星斗。",
+  #           "想来从年少一路到古稀，青天共明月，我共你。","骗尽多情是戏文，骗过天下是忠贞。",
+  #           "还在看这里吗？", "当你觉得孤独无助时，想一想还有十几亿的细胞只为了你一个人而活。",
+  #           "Only they who fulfill their duties in everyday matters will fulfill them on great occasions","流风不识曲，将弦乱拨，知音者，会寻声来和。"]
   # ---------------------------------------
   # toc widget (valid only in articles)
-  toc:
-    class: toc
-    display: [desktop, mobile] # [desktop, mobile]
-    header:
-      icon: fas fa-list
-      title: 本文目录
-    list_number: false
-    min_depth: 2
-    max_depth: 10
-  # ---------------------------------------
-  # category widget
-  category:
-    class: category
-    display: [desktop] # [desktop, mobile]
-    header:
-      icon: fas fa-folder-open
-      title: 文章分类
-      url: /categories/
-  # ---------------------------------------
-  # tagcloud widget
-  tagcloud:
-    class: tagcloud
-    display: [desktop, mobile] # [desktop, mobile]
-    header:
-      icon: fas fa-tags
-      title: 热门标签
-      url: /tags/
-    min_font: 14
-    max_font: 35
-    color: true
-    start_color: '#999'
-    end_color: '#555'
+  # toc:
+  #   class: toc
+  #   display: [desktop, mobile] # [desktop, mobile]
+  #   header:
+  #     icon: fas fa-list
+  #     title: 本文目录
+  #   list_number: false
+  #   min_depth: 2
+  #   max_depth: 10
+  # # ---------------------------------------
+  # # category widget
+  # category:
+  #   class: category
+  #   display: [desktop] # [desktop, mobile]
+  #   header:
+  #     icon: fas fa-folder-open
+  #     title: 文章分类
+  #     url: /categories/
+  # # ---------------------------------------
+  # # tagcloud widget
+  # tagcloud:
+  #   class: tagcloud
+  #   display: [desktop, mobile] # [desktop, mobile]
+  #   header:
+  #     icon: fas fa-tags
+  #     title: 热门标签
+  #     url: /tags/
+  #   min_font: 14
+  #   max_font: 35
+  #   color: true
+  #   start_color: '#999'
+  #   end_color: '#555'
 
   # ---------------------------------------
   # qrcode widget
-  donate:
-    class: qrcode
-    display: [desktop, mobile] # [desktop, mobile]
-    header: 
-      icon: fas fa-mug-hot
-      title: 觉得文章有帮助的话，可以扫码请我喝杯咖啡哦~
-    height: 100px  # Automatic height if not set
-    fancybox: true
-    images:
-      - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-wechat.jpg
-      - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-alipay.png
+  # donate:
+  #   class: qrcode
+  #   display: [desktop, mobile] # [desktop, mobile]
+  #   header: 
+  #     icon: fas fa-mug-hot
+  #     title: 觉得文章有帮助的话，可以扫码请我喝杯咖啡哦~
+  #   height: 100px  # Automatic height if not set
+  #   fancybox: true
+  #   images:
+  #     - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-wechat.jpg
+  #     - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-alipay.png
   # ---------------------------------------
   # webinfo widget
-  webinfo:
-    class: webinfo
-    display: [desktop]
-    header:
-      icon: fas fa-award
-      title: 站点信息
-    type:
-      article:
-        enable: true
-        text: '文章数目：'
-        unit: '篇'
-      runtime:
-        enable: true
-        data: '2017/06/18'    # 填写建站日期
-        text: '已运行时间：'
-        unit: '天'
-      wordcount:
-        enable: true
-        text: '本站总字数：'   # 需要启用 wordcount
-        unit: '字'
-      siteuv:
-        enable: true
-        text: '本站访客数：'   # 需要启用 busuanzi
-        unit: '人'
-      sitepv:
-        enable: true
-        text: '本站总访问量：' # 需要启用 busuanzi
-        unit: '次'
-      lastupd:
-        enable: true
-        friendlyShow: true    # 更友好的时间显示
-        text: '最后活动时间：'
-        unit: '日'
+  # webinfo:
+  #   class: webinfo
+  #   display: [desktop]
+  #   header:
+  #     icon: fas fa-award
+  #     title: 站点信息
+  #   type:
+  #     article:
+  #       enable: true
+  #       text: '文章数目：'
+  #       unit: '篇'
+  #     runtime:
+  #       enable: true
+  #       data: '2017/06/18'    # 填写建站日期
+  #       text: '已运行时间：'
+  #       unit: '天'
+  #     wordcount:
+  #       enable: true
+  #       text: '本站总字数：'   # 需要启用 wordcount
+  #       unit: '字'
+  #     siteuv:
+  #       enable: true
+  #       text: '本站访客数：'   # 需要启用 busuanzi
+  #       unit: '人'
+  #     sitepv:
+  #       enable: true
+  #       text: '本站总访问量：' # 需要启用 busuanzi
+  #       unit: '次'
+  #     lastupd:
+  #       enable: true
+  #       friendlyShow: true    # 更友好的时间显示
+  #       text: '最后活动时间：'
+  #       unit: '日'
 
   # You can add your own widget here or 'blog/source/_data/widget.yml'
   # class: text, list, grid, qrcode, page, ... see more at https://volantis.js.org/
@@ -251,8 +285,57 @@ article:
   # 文章详情页面的文章卡片本体布局方案
   body:
     # 文章顶部信息
-    top_meta: [counter, valinecount, wordcount]
+    top_meta: [author, category, date, wordcount, counter, valinecount]
     # ----------------
+
+    # 文章底部信息
+    bottom_meta: [updated, tags, share]
+    # meta library
+    meta_library:
+      # 默认文章作者（可在 front-matter 中覆盖）
+      author:
+        avatar: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-avatar.jpg
+        name: 忆星辰
+        url: /about/
+      # 文章创建日期
+      date:
+        icon: fas fa-calendar-alt
+        title: '发布于：'
+        format: 'll' # 日期格式 http://momentjs.com/docs/
+      # 文章更新日期
+      updated:
+        icon: fas fa-edit
+        title: '更新于：'
+        format: 'll' # 日期格式 http://momentjs.com/docs/
+      # 文章分类
+      category:
+        icon: fas fa-folder-open
+      # 文章浏览计数
+      counter:
+        icon: fas fa-eye
+        unit: '次阅读'
+      # 文章评论数量：只支持 valine
+      valinecount:
+        icon: fas fa-comment-dots
+        desc: '' # 条评论
+      # 文章字数和阅读时长
+      wordcount:
+        icon_wordcount: fas fa-keyboard
+        icon_duration: fas fa-hourglass-half
+      # 文章标签
+      tags:
+        icon: fas fa-hashtag
+      # 分享
+      share:
+        - id: qrcode # 当id为qrcode时需要安装插件  npm i hexo-helper-qrcode
+          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
+        - id: qq
+          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png
+        - id: qzone
+          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png
+        - id: weibo
+          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png
+    
     # 页脚组件
     footer_widget:
       # ----------------
@@ -282,6 +365,7 @@ article:
         permalink: '本文永久链接是：'
         content:
           - '博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议'
+          - '**转载请注明本文链接**'
           - permalink
       # ----------------
       # 打赏组件 (for layout: post/docs)
@@ -290,53 +374,186 @@ article:
         images:
           - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-wechat.jpg
           - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-alipay.png
-    # 文章底部信息
-    bottom_meta:
+
+############################### Article Layout ############################### > end
 
 
 
-# 不久后将被其它设置替代
-layout:
-  # The following can be written in `blog/source/_data/layout.yml`
-  # 文章列表（主页、自定义的列表）布局
-  on_list:
-    # 列表类页面的侧边栏
-    sidebar: [blogger, category, tagcloud, donate, webinfo]
-  # 页面布局
-  on_page:
-    # 文章页面主体元素，你也可以在页面的Front-matter中设置
-    body: [article, comments]
-    # 默认的meta信息，文章中没有配置则按照这里的配置来显示，设置为false则不显示
-    # 其中，title只在header中有效，music和thumbnail无需在这里设置，文章中有则显示
-    # 如果tags放置在meta.header中，那么在post列表中不显示（因为卡片下方已经有了）
-    meta:
-      header: [title, author, category, date, wordcount, counter]
-      footer: [updated, tags, btns, share]
-    # 文章页面的侧边栏
-    sidebar: [qrcode, toc]
+# # 不久后将被其它设置替代
+# layout:
+#   # The following can be written in `blog/source/_data/layout.yml`
+#   # 文章列表（主页、自定义的列表）布局
+#   on_list:
+#     # 列表类页面的侧边栏
+#     sidebar: [blogger, category, tagcloud, donate, webinfo]
+#   # 页面布局
+#   on_page:
+#     # 文章页面主体元素，你也可以在页面的Front-matter中设置
+#     body: [article, comments]
+#     # 默认的meta信息，文章中没有配置则按照这里的配置来显示，设置为false则不显示
+#     # 其中，title只在header中有效，music和thumbnail无需在这里设置，文章中有则显示
+#     # 如果tags放置在meta.header中，那么在post列表中不显示（因为卡片下方已经有了）
+#     meta:
+#       header: [title, author, category, date, wordcount, counter]
+#       footer: [updated, tags, btns, share]
+#     # 文章页面的侧边栏
+#     sidebar: [qrcode, toc]
 
 
-footer:
+
+############################### Sidebar ############################### > start
+sidebar:
+  # 主页、分类、归档等独立页面
+  for_page: [blogger, tagcloud, category, donate, webinfo]
+  # layout: docs/post 这类文章页面
+  for_post: [toc]
+  # 侧边栏组件库
+  widget_library:
+    # ---------------------------------------
+    # blogger info widget
+    blogger:
+      class: blogger
+      display: [desktop, mobile] # [desktop, mobile]
+      avatar: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-avatar.jpg
+      shape: rectangle # circle, rectangle
+      url: /about/
+      title: '忆星辰'
+      subtitle:
+      jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
+      social:
+        - icon: fas fa-rss
+          url: /atom.xml
+        - icon: fas fa-envelope
+          url: mailto:jaxsonwang@foxmail.com
+        - icon: fab fa-github
+          url: https://github.com/BillScott1024/
+        - icon: fas fa-headphones-alt
+          url: https://music.163.com/#/user/home?id=63035382/
+      poetry: ["Follow Your Heart.", "人生在勤，不索何获","红豆生南国，春来发几枝？愿君多采撷，此物最相思。","欲将沉醉换悲凉，清歌莫断肠。","慷慨唯霜雪，相赠眉间一道疤。",
+            "今晚月色真美。","I Love You.", "花损芳谢，忆昨残红落街。风也清绝，霜也凌烈，独抱浓愁宿月，泪融残粉似雪。","烟自梅初柴屋借，火从四月暮云偷，支一瓮天地煮星斗。",
+            "想来从年少一路到古稀，青天共明月，我共你。","骗尽多情是戏文，骗过天下是忠贞。",
+            "还在看这里吗？", "当你觉得孤独无助时，想一想还有十几亿的细胞只为了你一个人而活。",
+            "Only they who fulfill their duties in everyday matters will fulfill them on great occasions","流风不识曲，将弦乱拨，知音者，会寻声来和。"]
+    # ---------------------------------------
+    # toc widget (valid only in articles)
+    toc:
+      class: toc
+      display: [desktop, mobile] # [desktop, mobile]
+      header:
+        icon: fas fa-list
+        title: 本文目录
+      list_number: true
+      min_depth: 1
+      max_depth: 10
+    # ---------------------------------------
+    # category widget
+    category:
+      class: category
+      display: [desktop] # [desktop, mobile]
+      header:
+        icon: fas fa-folder-open
+        title: 文章分类
+        url: /blog/categories/
+    # ---------------------------------------
+    # tagcloud widget
+    tagcloud:
+      class: tagcloud
+      display: [desktop, mobile] # [desktop, mobile]
+      header:
+        icon: fas fa-tags
+        title: 热门标签
+        url: /tags/
+      min_font: 14
+      max_font: 30
+      color: true
+      start_color: '#ADD8E6'
+      end_color: '#00BFFF'
+
+    # ---------------------------------------
+    # qrcode widget
+    donate:
+      class: qrcode
+      display: [desktop, mobile] # [desktop, mobile]
+      header: 
+        icon: fas fa-mug-hot
+        title: 觉得文章有帮助的话，可以扫码请我喝杯咖啡哦~
+      height: 100px  # Automatic height if not set
+      fancybox: true
+      images:
+        - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-wechat.jpg
+        - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-alipay.png
+    # ---------------------------------------
+    # webinfo widget
+    webinfo:
+      class: webinfo
+      display: [desktop]
+      header:
+        icon: fas fa-award
+        title: 站点信息
+      type:
+        article:
+          enable: true
+          text: '文章数目：'
+          unit: '篇'
+        runtime:
+          enable: true
+          data: '2017/06/18'    # 填写建站日期
+          text: '已运行时间：'
+          unit: '天'
+        wordcount:
+          enable: true
+          text: '本站总字数：'   # 需要启用 wordcount
+          unit: '字'
+        siteuv:
+          enable: true
+          text: '本站访客数：'   # 需要启用 busuanzi
+          unit: '人'
+        sitepv:
+          enable: true
+          text: '本站总访问量：' # 需要启用 busuanzi
+          unit: '次'
+        lastupd:
+          enable: true
+          friendlyShow: true    # 更友好的时间显示
+          text: '最后活动时间：'
+          unit: '日'
+############################### Sidebar ############################### > end
+
+
+############################### Site Footer ############################### > start
+site_footer:
   # layout of footer: [aplayer, social, license, info, copyright]
   layout: [aplayer, social, license, analytics, info, copyright, record, badges]
   social:
-    # - avatar: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/wechat.png
-    #   url: /
-    - icon: fas fa-rss
-      url: atom.xml
-    - icon: fas fa-envelope
-      url: mailto:jaxsonwang@foxmail.com
-    - icon: fab fa-github
-      url: https://github.com/BillScott1024/
-    - icon: fas fa-headphones-alt
-      url: https://music.163.com/#/user/home?id=63035382
-    # - img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/qq.png
-    #   url: /
-    # - img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/qzone.png
-    #   url: /
-    # - img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/weibo.png
-    #   url: /
 
+    - icon: #fab fa-github
+      img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/029-github.svg
+      url: https://github.com/BillScott1024/
+    - icon: #music
+      img: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/icons/music.svg
+      url: https://music.163.com/#/user/home?id=63035382
+    - icon: #fas fa-rss
+      img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/020-rss.svg
+      url: atom.xml
+
+    - icon: #fas fa-envelope
+      url: # mailto:jaxsonwang@foxmail.com
+    - img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/010-facebook.svg
+      url: 
+    - img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/018-twitter.svg
+      url: 
+    - img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/045-telegram.svg
+      url: 
+    - img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/006-youtube.svg
+      url: 
+    - img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/qq.png
+      url: #
+    - img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/qzone.png
+      url: #
+    - img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/weibo.png
+      url: #
+    - avatar: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/wechat.png
+      url: #
   # site source
   source: https://github.com/BillScott1024/billscott1024.github.io
   # analytics using leancloud
@@ -344,11 +561,11 @@ footer:
     <span id="lc-sv">本站总访问量为 <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 次</span>
     <span id="lc-uv">访客数为 <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 人</span>
   # site copyright
-  copyright: '[Copyright © 2017-2020 XXX](/)'
+  copyright: '[Copyright © 2017-2020 ExtingStudio](/)'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   br: '<br>'
 
-  # 备案信息
+    # 备案信息
   record: '<div style="width:300px;margin:0 auto; padding:20px 0;"> <a style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/images/beian.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 0px; color:#939393;">鄂公网安备 42011102002596号</p></a></div>'
 
   # 底部标签条
@@ -359,6 +576,53 @@ footer:
            <a href="https://volantis.js.org/"> <img src="https://img.shields.io/badge/Theme-Volantis-blue" style="float:center;"/> </a>
            <a href="https://github.com/BillScott1024/billscott1024.github.io"> <img src="https://img.shields.io/github/repo-size/BillScott1024/billscott1024.github.io?color=green&label=%E6%9C%AC%E7%AB%99%E5%A4%A7%E5%B0%8F&logo=Git&logoColor=white" style="float:center;"/> </a>
            <a href="https://github.com/BillScott1024/billscott1024.github.io"> <img src="https://img.shields.io/github/last-commit/BillScott1024/billscott1024.github.io?color=blue&label=%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0&logo=Github" style="float:center;"/> </a>'
+
+############################### Site Footer ############################### > end
+
+
+# footer:
+#   # layout of footer: [aplayer, social, license, info, copyright]
+#   layout: [aplayer, social, license, analytics, info, copyright, record, badges]
+#   social:
+#     # - avatar: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/wechat.png
+#     #   url: /
+#     - icon: fas fa-rss
+#       url: atom.xml
+#     - icon: fas fa-envelope
+#       url: mailto:jaxsonwang@foxmail.com
+#     - icon: fab fa-github
+#       url: https://github.com/BillScott1024/
+#     - icon: fas fa-headphones-alt
+#       url: https://music.163.com/#/user/home?id=63035382
+#     # - img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/qq.png
+#     #   url: /
+#     # - img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/qzone.png
+#     #   url: /
+#     # - img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/64/weibo.png
+#     #   url: /
+
+#   # site source
+#   source: https://github.com/BillScott1024/billscott1024.github.io
+#   # analytics using leancloud
+#   analytics: >
+#     <span id="lc-sv">本站总访问量为 <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 次</span>
+#     <span id="lc-uv">访客数为 <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 人</span>
+#   # site copyright
+#   copyright: '[Copyright © 2017-2020 XXX](/)'
+#   # You can add your own property here. (Support markdown, for example: br: '<br>')
+#   br: '<br>'
+
+#   # 备案信息
+#   record: '<div style="width:300px;margin:0 auto; padding:20px 0;"> <a style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/images/beian.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 0px; color:#939393;">鄂公网安备 42011102002596号</p></a></div>'
+
+#   # 底部标签条
+#   badges: '<img src= "https://img.shields.io/badge/Powered-Hexo-blue" style="float:center;"/>
+#            <a href="https://github.com/BillScott1024/billscott1024.github.io"> <img src="https://img.shields.io/badge/Hosted-GitHub-brightgreen" style="float:center;"/> </a>
+#            <a href="https://www.aliyun.com/"> <img src="https://img.shields.io/badge/DNS-%E9%98%BF%E9%87%8C%E4%BA%91-orange" style="float:center;"/> </a>
+#            <a href="https://www.jsdelivr.com/"> <img src="https://img.shields.io/badge/CDN-JsDelivr-blueviolet" style="float:center;"/> </a>
+#            <a href="https://volantis.js.org/"> <img src="https://img.shields.io/badge/Theme-Volantis-blue" style="float:center;"/> </a>
+#            <a href="https://github.com/BillScott1024/billscott1024.github.io"> <img src="https://img.shields.io/github/repo-size/BillScott1024/billscott1024.github.io?color=green&label=%E6%9C%AC%E7%AB%99%E5%A4%A7%E5%B0%8F&logo=Git&logoColor=white" style="float:center;"/> </a>
+#            <a href="https://github.com/BillScott1024/billscott1024.github.io"> <img src="https://img.shields.io/github/last-commit/BillScott1024/billscott1024.github.io?color=blue&label=%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0&logo=Github" style="float:center;"/> </a>'
 
 
 ############################### Plugins ###############################
@@ -375,7 +639,8 @@ plugins:
 
 
   # npm i hexo-wordcount
-  wordcount: true #true
+  wordcount:
+    enable: true
 
   # Slide Background
   backstretch:
@@ -444,14 +709,14 @@ plugins:
     animation: nprogress # nprogress, circle
     banUrl:              # 被屏蔽的 url 地址将不启用 pjax 跳转，可以在控制台下使用 window.location.pathname 获取
       # - '/about/index.html'
-      - '/shuoshuo/'
+      - '/artitalk/'
 
 
   # Artitalk https://artitalk.js.org
   # 配置过程请参考：https://artitalk.js.org/doc.html
   # 除appID和appKEY外均为选填项
-  Artitalk:
-    enable: true # true为开启，false为关闭
+  artitalk:
+    # Set `layout: artitalk` to enable in page
     appID: V6xXL9F4DfrCwRJ6bLRqm65X-MdYXbMMI # your appID
     appKEY: TTnnUy9nwnTr9s61kGX78zEY # your appKEY
     # severurl:  #leancloud绑定的安全域名，使用国际版的话不需要填写
@@ -474,25 +739,27 @@ plugins:
     js: https://cdn.jsdelivr.net/npm/darkmode-js@1.5/lib/darkmode-js.min.js
     button: # button 使用默认或自行开发
       enable: true
-      label: 🌓
-      buttonDark: '#bbb'
-      buttonLight: '#444'
+      left: '16px'
+      bottom: '100px'
+      buttonDark: '#333'
+      buttonLight: '#ddd'
     compatible: true # 卡片兼容性处理，如果未发现卡片出现兼容问题设置为false
+    # darkmodejs的 mix-blend-mode 与 body.effect: [blur] 样式冲突，如果backstretch.position设置为'fixed'建议删除blur或禁用暗黑模式
 
 
 ############################### Comments ###############################
 comments:
-  path:                    # 全局评论地址 仅支持 valine , miniValine , disqus , gitalk
-  placeholder: 粘贴图片到此处可以自动上传，请填写邮箱以收到及时回复哦~  # 评论占位提示 仅支持 valine & miniValine
   title: <i class='fas fa-comments'></i> 评论
   subtitle:
   service: valine # valine, minivaline, disqus, gitalk, vssue, livere, isso, hashover
   # Valine
   # https://valine.js.org/
-  valine: # 请将 appId appKey 修改为自己的，否则评论数据是共享的。
+  valine:
     appId: OcH33On9kof4QnMnSaAOmDhj-MdYXbMMI # your appId
     appKey: V50w1D4JtUK9s3VxbnTtg5XJ # your appKey
     js: https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js
+    path: # 全局评论地址
+    placeholder: 粘贴图片到此处可以自动上传，请填写邮箱以收到及时回复哦~  # 评论占位提示
     meta: nick,mail,link # valine comment header info
     requiredFields: ['nick','mail']
     enableQQ: true # Unstable avatar link
@@ -503,10 +770,10 @@ comments:
     visitor: true
     mathJax: false
     # 新增参数
-    tagMeta: [“博主”,“小伙伴”,“访客”]
+    tagMeta: ['博主','小伙伴','访客']
     master: 99f30fa72c5a1da511002a1122a78a36
     friends:
-    metaPlaceholder: {“nick”:“昵称 / QQ 号”,“mail”:“邮箱 (必填)”}
+    # metaPlaceholder: {'nick': '昵称 / QQ 号', 'mail': '邮箱 (必填)', 'link': '可省略'}
     
 
 

@@ -1,12 +1,14 @@
 ---
-layout: links     # 必须
-title: 我的朋友们   # 可选，这是友链页的标题
+layout: friends     # 必须
+title: 友链   # 可选，这是友链页的标题
+top_meta: false
+bottom_meta: false
+sidebar: false
 links:
   - group: 友链
     icon: fas fa-user-tie
     desc: 优秀的开发者们
     items:
-
     - name: JingFengJi
       avatar: https://www.jingfengji.tech/img/avatar.jpg
       url: https://www.jingfengji.tech/
@@ -24,8 +26,6 @@ links:
       desc: Programmer
 ---
 
-
-<!-- more -->
 
 ## 友链规范:
 请按以下规则发送友链给博主：
