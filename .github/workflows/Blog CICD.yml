@@ -46,7 +46,7 @@ jobs:
        
     - name: Deploy To Github Pages
       env: 
-       Github_Pages: github.com/BillScott1024/billscott1024.github.io
+       Github_Pages: BillScott1024/billscott1024.github.io
        Github_Token: ${{ secrets.token_GithubAPI }}
       run: |
         cd Blog/
@@ -54,7 +54,6 @@ jobs:
         cd .github_pages
         git checkout master
         cd ../
-        ls
         mv .github_pages/ ./public/
         cd ./public/
         ls
@@ -62,4 +61,5 @@ jobs:
         git add -A
         git status
         git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
+        git status
         git push --force --quiet "https://${Github_Token}@${Github_Pages}" master:master
