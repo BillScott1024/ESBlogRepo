@@ -36,6 +36,7 @@ jobs:
         yuque-hexo sync
     - name: Generate files
       run: |
+        cd ..
         cd Blog/
         hexo generate
         
@@ -49,6 +50,7 @@ jobs:
        Github_Pages: github.com/BillScott1024/billscott1024.github.io
        Github_Token: ${{ secrets.token_GithubAPI }}
       run: |
+        cd ..
         git clone https://${Github_Pages} .github_pages
         cd .github_pages
         git checkout master
