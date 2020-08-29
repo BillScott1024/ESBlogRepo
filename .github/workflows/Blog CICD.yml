@@ -54,7 +54,7 @@ jobs:
         cd .github_pages
         git checkout master
         cd ../
-        rm -r ./public/.git/
+        rm -r ./public/
         mv .github_pages/.git/ ./public/
         cd ./public/
         ls
