@@ -28,13 +28,6 @@ jobs:
         npm install hexo-cli -g
         npm install yuque-hexo -g
         npm install
-        npm install -g npm-check
-        npm-check -u
-        npm install -g npm-upgrade
-        npm-upgrade
-        yes
-        yes
-        yes
         yuque-hexo sync
     - name: Generate files
       run: |
