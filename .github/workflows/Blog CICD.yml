@@ -38,8 +38,6 @@ jobs:
       run: |
         cd Blog/
         hexo generate
-        hexo d
-        
 
         
     - name: Deploy To Coding Pages
