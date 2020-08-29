@@ -15,7 +15,7 @@ jobs:
     - name: Setup node
       uses: actions/setup-node@v1
       with:
-        node-version: '12.x'
+        node-version: '10.15.x'
     - name: Cache node modules
       uses: actions/cache@v1
       with:
@@ -26,13 +26,12 @@ jobs:
       run: |
         cd Blog/
         npm install -g cnpm --registry=https://registry.npm.taobao.org
-        npm install hexo-cli -g
-        npm install yuque-hexo -g
-        npm install
+        cnpm install hexo-cli -g
+        cnpm install yuque-hexo -g
+        cnpm install
         yuque-hexo sync
     - name: Generate files
       run: |
-        dir
         hexo generate
        
     - name: Deploy blog
