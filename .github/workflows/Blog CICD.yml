@@ -53,8 +53,12 @@ jobs:
         cd .github_pages
         git checkout master
         cd ../
+        ls
         mv .github_pages/.git/ ./public/
         cd ./public/
-        git add .
-        git commit -F ../commit-message.log
+        ls
+        git status
+        git add -A
+        git status
+        git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
         git push --force --quiet "https://${Github_Token}@${Github_Pages}" master:master
