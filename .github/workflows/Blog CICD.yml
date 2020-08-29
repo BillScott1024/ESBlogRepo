@@ -31,7 +31,9 @@ jobs:
         npm install
         yuque-hexo sync
     - name: Generate files
-      run: hexo generate
+      run: |
+        dir
+        hexo generate
        
     - name: Deploy blog
       run: |
@@ -44,4 +46,5 @@ jobs:
         git config user.email "jaxsonwang@foxmail.com"
         git add .
         git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-        git push --force --quiet "https://${{ secrets.GH_TOKEN }}@${{ secrets.GH_REF }}" master:master
+        dir
+        git push --quiet "https://${{ secrets.GH_TOKEN }}@${{ secrets.GH_REF }}" master:master
