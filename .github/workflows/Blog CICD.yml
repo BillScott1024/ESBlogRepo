@@ -24,6 +24,7 @@ jobs:
  
     - name: Install dependencies
       run: |
+        cd Blog/
         npm install -g cnpm --registry=https://registry.npm.taobao.org
         cnpm install hexo-cli -g
         cnpm install yuque-hexo -g
@@ -35,6 +36,8 @@ jobs:
        
     - name: Deploy blog
       run: |
+        cd Blog/
+        git init
         git clone "https://${{ secrets.GH_REF }}" deploy_git
         mv ./deploy_git/.git ./public/
         cd ./public
@@ -42,5 +45,4 @@ jobs:
         git config user.email "jaxsonwang@foxmail.com"
         git add .
         git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-        dir
         git push --quiet "https://${{ secrets.GH_TOKEN }}@${{ secrets.GH_REF }}" master:master
