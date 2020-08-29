@@ -69,7 +69,7 @@ jobs:
         Coding_Pages: e.coding.net/extingstudio1/extingstudio1/extingstudio1.git
         Coding_Token: ${{ secrets.token_CodingAPI }}
         Coding_Username: ${{ secrets.Username_Coding }} 
-        run: | 
+      run: | 
           git clone https://${Coding_Username}:${Coding_Token}@${Coding_Pages} .coding_pages
           cd .coding_pages 
           git checkout master
