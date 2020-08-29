@@ -24,7 +24,6 @@ jobs:
  
     - name: Install dependencies
       run: |
-        cd Blog/
         npm install -g cnpm --registry=https://registry.npm.taobao.org
         cnpm install hexo-cli -g
         cnpm install yuque-hexo -g
@@ -36,8 +35,6 @@ jobs:
        
     - name: Deploy blog
       run: |
-        mkdir temp
-        cd temp/
         git clone "https://${{ secrets.GH_REF }}" deploy_git
         mv ./deploy_git/.git ./public/
         cd ./public
