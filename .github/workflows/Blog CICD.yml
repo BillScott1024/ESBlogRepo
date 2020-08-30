@@ -42,7 +42,7 @@ jobs:
       env:
        Github_Pages: github.com/BillScott1024/billscott1024.github.io
        Github_Token: ${{ secrets.token_GithubAPI }}
-       path: ./billscott1024.github.io-master/
+       path: ./billscott1024.github.io/
       run: |
         cd Blog/
         git clone https://${Github_Pages} 
