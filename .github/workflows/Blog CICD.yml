@@ -38,11 +38,17 @@ jobs:
         npm install markdown-it-emoji -g
         npm run start
 
-    - name: Setup Git Infomation
-      run: |
-       git config --global user.name 'GA-YuQue-To-Hexo'
-       git config --global user.email 'jaxsonwang@foxmail.com'
-
+    - name: Deploy To Github Pages
+      env:
+       Github_Pages: github.com/BillScott1024/billscott1024.github.io
+       Github_Token: ${{ secrets.token_GithubAPI }}
+       path: ./billscott1024.github.io-master/
+       run: |
+        cd Blog/
+        git clone https://${Github_Pages} 
+        cd ${path}
+        mv ${path}* ./public/
+        rm -r ${path}
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
@@ -50,7 +56,7 @@ jobs:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         EXTERNAL_REPOSITORY: BillScott1024/billscott1024.github.io
         PUBLISH_BRANCH: master
-        PUBLISH_DIR: ./public
+        PUBLISH_DIR: .Blog/public
         commit_message: ${{ github.event.head_commit.message }}
         
     - name: Deploy To Coding Pages
