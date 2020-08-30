@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 忆星辰
+title: 忆星辰 | 博客
 favicon: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-favicon-cicle.png
 subtitle: '个人博客'
 description: '星辰的个人博客'
@@ -176,12 +176,12 @@ bangumi:
   enable: true    # 是否启用
   path: bangumis/index.html # 番剧页面路径，默认bangumis/index.html
   vmid: 7057062 # 哔哩哔哩番剧页面的vmid(uid)
-  title: '追番列表' # 该页面的标题
-  quote: '生命不息，追番不止！' #  写在页面开头的一段话,支持 html 语法
+  title: '追番记录' # 该页面的标题
+  quote: '老二次元了~ ( ゜- ゜)つロ' #  写在页面开头的一段话,支持 html 语法
   show: 1 # 初始显示页面：0: 想看,1: 在看,2: 看过，默认为1
   loading: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/icons/img-loading-bilibili.gif  # 图片加载完成前的 loading 图片
-  metaColor:
-  color:
+  metaColor: (0, 150, 216)
+  color: (0, 150, 216)
   webp: true # 番剧封面使用webp格式(此格式在safari浏览器下不显示，但是图片大小可以缩小 100 倍左右)
   progress: false # 获取番剧数据时是否显示进度条，默认true
 
