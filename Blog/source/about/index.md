@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: About Me
 top_meta: false
 bottom_meta: [updated, share]
@@ -194,12 +194,16 @@ sidebar: [blogger, tagcloud, webinfo]
 
 <!-- endtab -->
 
-<!-- tab 生活 <i class="fas fa-camera"></i> -->
-  生活 buiding...
+<!-- tab 生活 <i class="fas fa-star"></i> -->
+
+  {% image https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/LifeAchieve.jpg, alt=Life Is So Long... %}
+
 <!-- endtab -->
 
-<!-- tab Like <i class="fas fa-camera"></i> -->
+<!-- tab Like <i class="fas fa-heart"></i> -->
   Like buiding...
+
+  To Be A Greater Person...
 <!-- endtab -->
 
 {% endtabs %}

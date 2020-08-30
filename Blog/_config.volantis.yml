@@ -321,7 +321,7 @@ sidebar:
 ############################### Site Footer ############################### > start
 site_footer:
   # layout of footer: [aplayer, social, license, info, copyright]
-  layout: [aplayer,badges, social, license, analytics, info, copyright, record]
+  layout: [aplayer,badges, social, license, analytics, copyright, record]
   social:
 
     - icon: #fab fa-github
