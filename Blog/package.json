@@ -12,13 +12,14 @@
     "clean:yuque": "yuque-hexo clean"
   },
   "hexo": {
-    "version": "5.0.2"
+    "version": "5.1.1"
   },
   "dependencies": {
     "hexo": "^5.1.1",
     "hexo-all-minifier": "^0.5.3",
     "hexo-bilibili-bangumi": "^1.5.0",
     "hexo-deployer-git": "^2.1.0",
+    "hexo-fs": "^3.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.9",
     "hexo-generator-category": "^1.0.0",
@@ -42,9 +43,6 @@
     "hexo-wordcount": "^6.0.1",
     "live2d-widget-model-tororo": "^1.0.5",
     "npm-check-updates": "^8.0.1",
-    "yuque-hexo": "^1.6.5"
-  },
-  "devDependencies": {
     "yuque-hexo": "^1.6.5"
   },
   "yuqueConfig": {

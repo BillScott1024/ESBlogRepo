@@ -33,6 +33,7 @@ i18n_dir: :lang
 skip_render: 
   - "tools/**"
   - "bangumis/index.html"
+  - "album/index.md"
 # will output `source/mypage/index.html` and `source/mypage/code.js` without altering them.
 
 # Writing
@@ -160,13 +161,13 @@ hexo_submit_urls_to_search_engine:
   find_what: http://www.extingstudio.com/
   replace_with: http://www.extingstudio.com/
 
-# hexo-backup 插件
-backup:
-    type: git
-    theme: volantis
-    repository:
-       github: git@github.com:BillScott1024/ESBlogRepo.git,backup
-       # gitcafe: git@github.com:xxx/xxx.git,branchName
+# # hexo-backup 插件
+# backup:
+#     type: git
+#     theme: volantis
+#     repository:
+#        github: git@github.com:BillScott1024/ESBlogRepo.git,backup
+#        # gitcafe: git@github.com:xxx/xxx.git,branchName
 
 
 # 追番页 更新 hexo bangumi -u
@@ -226,9 +227,5 @@ import:
     - <!--动态线条背景--><script type="text/javascript"color="112, 128, 144" opacity='0.8' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
     # 烟花
     - </canvas> <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/js/anime.min.js"></script><canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/js/fireworks.min.js"></script>
-
-
-
-
-
-
+    # 右键复制版权信息
+    - <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/js/copy-0.0.6.min.js" ></script>
