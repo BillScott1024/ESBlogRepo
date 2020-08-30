@@ -32,12 +32,7 @@ jobs:
         npm un hexo-renderer-marked
         npm i hexo-renderer-markdown-it -g
         npm install markdown-it-emoji -g
-
-        yuque-hexo sync
-    - name: Generate files
-      run: |
-        cd Blog/
-        hexo generate
+        npm run start
 
     - name: Setup Git Infomation
       run: |
