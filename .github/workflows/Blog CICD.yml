@@ -39,6 +39,31 @@ jobs:
         cd Blog/
         hexo generate
 
+    - name: Setup Git Infomation
+      run: |
+       git config --global user.name 'GA-YuQue-To-Hexo'
+       git config --global user.email 'jaxsonwang@foxmail.com'
+
+    - name: Deploy To Github Pages
+      env:
+       Github_Pages: github.com/BillScott1024/billscott1024.github.io.git
+       Github_Token: ${{ secrets.token_GithubAPI }}
+      run: |
+        cd Blog/
+        git clone https://${Github_Pages} .github_pages
+        cd .github_pages
+        git checkout master
+        cd ../
+        rm -r ./public/
+        mv .github_pages/.git/ ./public/
+        cd ./public/
+        ls
+        git status
+        git add -A
+        git status
+        git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
+        git status
+        git push --force --quiet "https://${Github_Token}@${Github_Pages}" master:master
         
     - name: Deploy To Coding Pages
       env: 
