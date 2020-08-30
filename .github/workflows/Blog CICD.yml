@@ -46,7 +46,6 @@ jobs:
       run: |
         cd Blog/
         git clone https://${Github_Pages} 
-        cd ${path}
         mv ${path}* ./public/
         rm -r ${path}
 
