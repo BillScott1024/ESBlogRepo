@@ -30,18 +30,19 @@ navbar:
     - name: 关于
       icon: fas fa-info-circle
       url: about/
-    - name: 工具箱
-      icon: fas fa-tools
-      url: tools/
+    - name: 番剧
+      icon: fas fa-tv
+      url: bangumis/index.html
     - name: 更多
       icon: fas fa-ellipsis-v
       rows:
         - name: 留言板
           icon: fas fa-file-signature
           url: comments/
-        - name: 番剧
-          icon: fas fa-tv
-          url: bangumis/index.html
+        - name: 工具箱
+          icon: fas fa-tools
+          url: tools/
+
 
 
 
@@ -191,7 +192,7 @@ article:
 ############################### Sidebar ############################### > start
 sidebar:
   # 主页、分类、归档等独立页面
-  for_page: [blogger, tagcloud, category, donate, webinfo]
+  for_page: [blogger, tagcloud, category,newcomment, donate, webinfo]
   # layout: docs/post 这类文章页面
   for_post: [toc]
   # 侧边栏组件库
@@ -240,7 +241,7 @@ sidebar:
       header:
         icon: fas fa-folder-open
         title: 文章分类
-        url: /blog/categories/
+        url: /categories/
     # ---------------------------------------
     # tagcloud widget
     tagcloud:
@@ -304,6 +305,16 @@ sidebar:
           friendlyShow: true    # 更友好的时间显示
           text: '最后活动时间：'
           unit: '日'
+
+    newcomment:
+      class: text
+      display: [desktop] # [desktop, mobile]
+      header:
+        icon: far fa-comments
+        title: 最新评论
+        url: 
+      content:
+         - '<div id="hot-comments"></div>'     
 ############################### Sidebar ############################### > end
 
 
@@ -451,6 +462,9 @@ plugins:
     banUrl:              # 被屏蔽的 url 地址将不启用 pjax 跳转，可以在控制台下使用 window.location.pathname 获取
       # - '/about/index.html'
       - '/artitalk/'
+      # - '/friends/'
+      # - '/bangumis/index.html'
+      # - '/comments/'
 
 
   # Artitalk https://artitalk.js.org
@@ -512,9 +526,9 @@ comments:
     mathJax: false
     # 新增参数
     tagMeta: ['博主','小伙伴','访客']
-    master: 99f30fa72c5a1da511002a1122a78a36
-    friends:
-    # metaPlaceholder: {'nick': '昵称 / QQ 号', 'mail': '邮箱 (必填)', 'link': '可省略'}
+    master: ['99f30fa72c5a1da511002a1122a78a36']
+    friends: []
+    serverURLs: 'api-latestcomments-v2.extingstudio.com'
     
 
 
@@ -579,3 +593,6 @@ analytics:
     app_id: OcH33On9kof4QnMnSaAOmDhj-MdYXbMMI
     app_key: V50w1D4JtUK9s3VxbnTtg5XJ
     custom_api_server: # 一般不需要写，除非自定义了 API Server
+
+
+########### 自定义Config ########################

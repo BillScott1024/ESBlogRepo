@@ -212,7 +212,9 @@ import:
     # - <meta name="msapplication-TileColor" content="#ffffff">
   link:
     # - <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png">
+    - <script async="" referrerpolicy="no-referrer" type="text/javascript" src="//cdn.jsdelivr.net/npm/leancloud-storage@3/dist/av-min.js"></script>
   script:
+    
     # 51La 统计
     - '<script type="text/javascript" src="https://js.users.51.la/20919671.js"></script>'
     # U-Meng 统计
@@ -222,6 +224,9 @@ import:
     - <!-- start webpushr tracking code --> <script>(function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('setup',{'key':'BNKbIvI_iJuSO3IFPx6D_gSjEve8q7iuxD8qMSMRfWMq0JSx0xRSadjd-x6TX8XI537fa3c7fGsgeic-ejD6l-o' });</script><!-- end webpushr tracking code -->
     # 彩条
     - <!--动态线条背景--><script type="text/javascript"color="112, 128, 144" opacity='0.8' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+    # 烟花
+    - </canvas> <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/js/anime.min.js"></script><canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/js/fireworks.min.js"></script>
+
 
 
 
