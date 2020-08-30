@@ -30,12 +30,12 @@ jobs:
       run: |
         cd Blog/
         npm ci
-        npm install hexo-cli@latest -g
-        npm install yuque-hexo@latest -g
-        npm install nunjucks@latest -g
+        npm install hexo-cli@latest --save
+        npm install yuque-hexo@latest --save
+        npm install nunjucks@latest --save
         npm un hexo-renderer-marked
-        npm i hexo-renderer-markdown-it -g
-        npm install markdown-it-emoji -g
+        npm i hexo-renderer-markdown-it --save
+        npm install markdown-it-emoji --save
         npm run start
 
     - name: Deploy To Github Pages
