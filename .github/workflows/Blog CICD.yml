@@ -46,7 +46,7 @@ jobs:
       run: |
         cd Blog/
         git clone https://${Github_Pages} 
-        mv -u ${path}* ./public/
+        mv -f ${path}* ./public/
         rm -r ${path}
 
     - name: Deploy
