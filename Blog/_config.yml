@@ -185,6 +185,23 @@ bangumi:
   webp: true # 番剧封面使用webp格式(此格式在safari浏览器下不显示，但是图片大小可以缩小 100 倍左右)
   progress: false # 获取番剧数据时是否显示进度条，默认true
 
+# # offline config passed to sw-precache.
+# service_worker:
+#   maximumFileSizeToCacheInBytes: 5242880
+#   staticFileGlobs:
+#   - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
+#   stripPrefix: public
+#   verbose: true
+#   runtimeCaching:
+#     - urlPattern: /*
+#       handler: cacheFirst
+#       options:
+#         origin: https://cdn.jsdelivr.net
+#     # - urlPattern: /*
+#     #   handler: cacheFirst
+#     #   options:
+#     #     origin: cdn.some-else.org
+
 use_cdn: true
 
 # Extensions
@@ -219,7 +236,7 @@ import:
     # 51La 统计
     - '<script type="text/javascript" src="https://js.users.51.la/20919671.js"></script>'
     # U-Meng 统计
-    - <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279216587'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1279216587%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+    # - <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279216587'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1279216587%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
   
     # webpushr
     - <!-- start webpushr tracking code --> <script>(function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('setup',{'key':'BNKbIvI_iJuSO3IFPx6D_gSjEve8q7iuxD8qMSMRfWMq0JSx0xRSadjd-x6TX8XI537fa3c7fGsgeic-ejD6l-o' });</script><!-- end webpushr tracking code -->

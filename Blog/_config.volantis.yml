@@ -15,9 +15,9 @@ navbar:
     - name: 归档
       icon: fas fa-archive
       url: archives/
-    - name: 标签
-      icon: fas fa-tags
-      url: tags/
+    # - name: 标签
+    #   icon: fas fa-tags
+    #   url: tags/
     - name: 分类
       icon: fas fa-folder-open
       url: categories/
@@ -66,9 +66,9 @@ cover:
     - name: 归档
       icon: fas fa-archive
       url: archives/
-    - name: 标签
-      icon: fas fa-tags
-      url: tags/
+    # - name: 标签
+    #   icon: fas fa-tags
+    #   url: tags/
     - name: 友链
       icon: fas fa-link
       url: friends/
