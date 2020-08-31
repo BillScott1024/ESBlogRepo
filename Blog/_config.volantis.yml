@@ -15,9 +15,6 @@ navbar:
     - name: 归档
       icon: fas fa-archive
       url: archives/
-    # - name: 标签
-    #   icon: fas fa-tags
-    #   url: tags/
     - name: 分类
       icon: fas fa-folder-open
       url: categories/
@@ -27,12 +24,23 @@ navbar:
     - name: 说说
       icon: fas fa-comments
       url: artitalk/
-    - name: 关于
-      icon: fas fa-info-circle
-      url: about/
     - name: 番剧
       icon: fas fa-tv
       url: bangumis/index.html
+    - name: 关于
+      icon: fas fa-info-circle
+      url: about/
+    - name: 小功能
+      icon: fas fa-bars
+      rows:
+        - name: 收藏夹
+          icon: fas fa-bookmark
+          url: bookmark/
+        - name: SSL安全验证
+          icon: fas fa-shield-alt
+          url:  https://ssl.extingstudio.com/
+          target: _blank
+
     - name: 更多
       icon: fas fa-ellipsis-v
       rows:
@@ -533,40 +541,6 @@ comments:
     friends: []
     serverURLs: 'api-latestcomments-v2.extingstudio.com'
     
-
-
-
-# 自定义右键菜单
-rightmenu:
-  enable: false
-  # hr: 分割线, music: 音乐控制器
-  layout: [home, help, examples, contributors, hr, source_docs, source_theme, hr, print, hr, music]
-  # 可选功能项
-  print:
-    name: 打印页面
-    icon: fa fa-print
-    onclick: document.execCommand('print')
-  # 自定义菜单的格式如下
-  help:
-    name: 常见问题
-    icon: fa fa-question
-    url: https://volantis.js.org/faqs/
-  examples:
-    name: 示例博客
-    icon: fa fa-rss
-    url: https://volantis.js.org/examples/
-  contributors:
-    name: 加入社区
-    icon: fa fa-fan fa-spin
-    url: https://volantis.js.org/contributors/
-  source_docs:
-    name: 本站源码
-    icon: fa fa-code-branch
-    url: https://github.com/volantis-x/volantis-docs/
-  source_theme:
-    name: 主题源码
-    icon: fa fa-code-branch
-    url: https://github.com/volantis-x/hexo-theme-volantis/
 
 
 ############################### Search ###############################
