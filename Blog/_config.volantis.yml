@@ -527,6 +527,11 @@ plugins:
     # darkmodejs的 mix-blend-mode 与 body.effect: [blur] 样式冲突，如果backstretch.position设置为'fixed'建议删除blur或禁用暗黑模式
 
 
+############################### Rightmenu ############################### > start
+# 自定义右键菜单
+rightmenu:
+  enable: true
+
 ############################### Comments ###############################
 comments:
   title: <i class='fas fa-comments'></i> 评论
