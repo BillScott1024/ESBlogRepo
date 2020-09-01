@@ -136,7 +136,7 @@ live2d:
     #   'tap body': 'text3'
 
 # 压缩
-all_minifier: true
+all_minifier: false
 
 webPushNotification:
   webpushrKey: "L9-CaP_yXKrdnS0nzTlIa-XOWmx2hmPW4-dkdPKtONo"
@@ -245,6 +245,6 @@ import:
     # # 烟花
     # - </canvas> <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/js/anime.min.js"></script><canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/js/firework-0.0.2.min.js"></script>
     # 右键复制版权信息
-    - <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/js/copy-0.0.6.min.js" ></script>
+    - <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/js/copy-0.0.8.min.js" ></script>
     # sweetalert2 plugins
-    - <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script><script src="sweetalert2.all.min.js"></script>
+    # - <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>

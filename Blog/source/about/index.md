@@ -55,28 +55,6 @@ sidebar: [blogger, tagcloud, webinfo]
 
 <br>
 <br>
-<br>
-
-# 本站 TODO List 📜
-
-{% checkbox blue checked, 博客速度优化 CDN/JsDelivr %}
-{% checkbox blue checked, GitHubPages / Coding双线部署 %}
-{% checkbox blue checked, WebPush 通知 %}
-{% checkbox blue checked, 文章字数统计和阅读时长 %}
-{% checkbox blue checked, live2d动画人物 %}
-{% checkbox blue checked, 工具箱页面 %}
-{% checkbox blue checked, 配置Artitalk %}
-
-{% checkbox blue checked, 阅读量和访问数优化 %}
-{% checkbox blue checked, 网站域名备案 %}
-{% checkbox blue checked, leancloud的定时任务 %}
-{% checkbox blue checked, 51统计页面 [51统计](https://web.51.la/) %}
-
-{% checkbox blue, 点击烟花效果 %}
-{% checkbox blue checked, 动态线条背景 %}
-
-<br>
-<br>
 
 # 站点历程 📅
 
@@ -143,51 +121,52 @@ sidebar: [blogger, tagcloud, webinfo]
 <!-- tab 摄影 <i class="fas fa-camera"></i> -->
 
 {% gallery stretch, 4 %}
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_001.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_002.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_003.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_004.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_005.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_006.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_008.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_009.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_010.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_011.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_012.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_013.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_014.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_015.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_016.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_017.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_018.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_019.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_020.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_021.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_022.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_023.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_024.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_025.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_026.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_027.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_028.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_029.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_030.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_031.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_032.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_033.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_034.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_035.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_036.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_037.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_039.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_040.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_041.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_042.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_043.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_044.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_045.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_046.JPG)
-![](https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/photo/IMG_047.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_001.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_002.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_003.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_004.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_005.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_006.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_008.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_009.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_010.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_011.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_012.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_013.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_014.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_015.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_016.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_017.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_018.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_019.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_020.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_021.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_022.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_023.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_024.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_025.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_026.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_027.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_028.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_029.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_030.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_031.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_032.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_033.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_034.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_035.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_036.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_037.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_039.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_040.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_041.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_042.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_043.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_044.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_045.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_046.JPG)
+![](https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/album/IMG_047.JPG)
+
 
 
 {% endgallery %}
@@ -200,8 +179,32 @@ sidebar: [blogger, tagcloud, webinfo]
 
 <!-- endtab -->
 
+<!-- tab 待办 <i class="fas fa-list-ul"></i> -->
+<br>
+
+# Todo List 📜
+
+{% checkbox blue checked, 博客速度优化 CDN/JsDelivr %}
+{% checkbox blue checked, GitHubPages / Coding双线部署 %}
+{% checkbox blue checked, WebPush 通知 %}
+{% checkbox blue checked, 文章字数统计和阅读时长 %}
+{% checkbox blue checked, ~~live2d动画人物~~ %}
+{% checkbox blue checked, 工具箱页面 %}
+{% checkbox blue checked, 配置Artitalk %}
+{% checkbox blue checked, 阅读量和访问数优化 %}
+{% checkbox blue checked, 网站域名备案 %}
+{% checkbox blue checked, leancloud的定时任务 %}
+{% checkbox blue checked, 51统计页面 [51统计](https://web.51.la/) %}
+{% checkbox blue, ~~点击烟花效果~~ %}
+{% checkbox blue checked, 动态线条背景 %}
+{% checkbox blue checked, DNS线路解析优化 %}
+{% checkbox blue, 优化弹窗效果 %}
+<br>
+
+<!-- endtab -->
+
 <!-- tab Like <i class="fas fa-heart"></i> -->
-  Like buiding...
+  Like tab is in buiding...
 
   To Be A Greater Person...
 <!-- endtab -->
