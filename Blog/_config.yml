@@ -4,7 +4,7 @@
 
 # Site
 title: 忆星辰 | 博客
-favicon: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-favicon-cicle.png
+favicon: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar/favicon-cicle.png?x-oss-process=style/WebSiteCover
 subtitle: '个人博客'
 description: '星辰的个人博客'
 keywords: "博客, 游戏, 开发, Unity, Laya, Cocos, JavaScript, TyptScript, 前端"
@@ -231,6 +231,8 @@ import:
   link:
     # - <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png">
     - <script async="" referrerpolicy="no-referrer" type="text/javascript" src="//cdn.jsdelivr.net/npm/leancloud-storage@3/dist/av-min.js"></script>
+    # swal alert 2的动画样式
+    - <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
   script:
     # 51La 统计
     - '<script type="text/javascript" src="https://js.users.51.la/20919671.js"></script>'

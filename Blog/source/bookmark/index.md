@@ -30,6 +30,7 @@ sidebar: [blogger, tagcloud, webinfo]
 {% site LeanCloud, url=https://console.leancloud.app/applist.html#/apps, screenshot=https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/websites/LeanCloud.webp, description=LeanCloud %}
 {% site WebPushr, url=https://app.webpushr.com/, screenshot=https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/websites/webpushr.webp, description=浏览器通知 %}
 {% site Google Adsense, url=https://www.google.com/adsense/, screenshot=https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/websites/google-ad.webp, description=Google Adsense %}
+{% site ImageOptim, url=https://imageoptim.com/, screenshot=https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/websites/ImageOptim.png?x-oss-process=style/WebSiteCover, description=非常好用的没费图片压缩工具 ImageOptim %}
 {% endsitegroup %}
 
 <!-- endtab -->

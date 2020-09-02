@@ -18,7 +18,7 @@ links:
       desc: Game Developer, Game Coder
 
     - name: 星辰
-      avatar: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar.jpg
+      avatar: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar/avatar.jpg?x-oss-process=style/WebSiteCover
       url: https://www.extingstudio.com/
       backgroundColor: '#3E7411' # 卡片背景颜色
       textColor: '#fff'  # 卡片文字颜色
@@ -39,7 +39,7 @@ links:
 
 ## 示例:
   name: 星辰    # 博客名
-  avatar:  https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar.jpg # 头像链接
+  avatar:  https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar/avatar.jpg?x-oss-process=style/WebSiteCover # 头像链接
   url:    https://www.extingstudio.com/  # 博客链接
   backgroundColor: '#3E74C9' # 卡片背景颜色
   textColor: '#fff'  # 卡片文字颜色

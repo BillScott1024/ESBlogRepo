@@ -5,8 +5,8 @@
 navbar:
   visiable: auto # always, auto
   logo: # choose [img] or [icon + title]
-    img: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-favicon-cicle.png
-    icon: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-favicon-cicle.png
+    img: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar/favicon-cicle.png?x-oss-process=style/WebSiteCover
+    icon: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar/favicon-cicle.png?x-oss-process=style/WebSiteCover
     title:
   menu: 
     - name: 博客
@@ -63,7 +63,7 @@ cover:
     archive: true
     others: false # can be written in front-matter 'cover: true'
   # background: https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/033.jpg
-  logo: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-favicon-cicle.png
+  logo: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar/favicon-cicle.png?x-oss-process=style/WebSiteCover
   title: ''
   subtitle: ''
   search: 搜索我的文章🔍 # search bar placeholder
@@ -115,7 +115,7 @@ article:
     meta_library:
       # 默认文章作者（可在 front-matter 中覆盖）
       author:
-        avatar: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-avatar.jpg
+        avatar: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar/avatar.jpg?x-oss-process=style/WebSiteCover
         name: 忆星辰
         url: /about/
       # 文章创建日期
@@ -193,8 +193,8 @@ article:
       donate:
         enable: true
         images:
-          - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-wechat.jpg
-          - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-alipay.png
+          - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/webinfos/pay-wechat.jpg?x-oss-process=style/WebSiteCover
+          - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/webinfos/pay-alipay.png?x-oss-process=style/WebSiteCover
 
 
 ############################### Sidebar ############################### > start
@@ -210,7 +210,7 @@ sidebar:
     blogger:
       class: blogger
       display: [desktop, mobile] # [desktop, mobile]
-      avatar: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/web-avatar.jpg
+      avatar: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar/avatar.jpg?x-oss-process=style/WebSiteCover
       shape: rectangle # circle, rectangle
       url: /about/
       title: '忆星辰'
@@ -276,8 +276,8 @@ sidebar:
       height: 100px  # Automatic height if not set
       fancybox: true
       images:
-        - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-wechat.jpg
-        - https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/webinfos/pay-alipay.png
+        - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/webinfos/pay-wechat.jpg?x-oss-process=style/WebSiteCover
+        - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/webinfos/pay-alipay.png?x-oss-process=style/WebSiteCover
     # ---------------------------------------
     # webinfo widget
     webinfo:
@@ -349,7 +349,7 @@ site_footer:
       img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/029-github.svg
       url: https://github.com/BillScott1024/
     - icon: #music
-      img: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/icons/music.svg
+      img: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/icon/music.svg
       url: https://music.163.com/#/user/home?id=63035382
     - icon: #fas fa-rss
       img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org@1.1/icon/1322024-social-media/020-rss.svg
@@ -385,7 +385,7 @@ site_footer:
   br: '<br>'
 
     # 备案信息
-  record: '<div style="width:300px;margin:0 auto; padding:20px 0;"> <a style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/images/beian.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 0px; color:#939393;">鄂公网安备 42011102002596号</p></a></div>'
+  record: '<div style="width:300px;margin:0 auto; padding:20px 0;"> <a style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/icon/beian.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 0px; color:#939393;">鄂公网安备 42011102002596号</p></a></div>'
 
   # 底部标签条
   badges: '<img src= "https://img.shields.io/badge/Powered-Hexo-blue" style="float:center;"/>
@@ -407,7 +407,7 @@ plugins:
     enable: true
     js: https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js
     onlypost: true
-    loadingImg: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/icons/img-loading-bilibili.gif # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg
+    loadingImg: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/icon/img-loading-bilibili.gif # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg
     blurIn: true # 模糊加载效果 （loadingImg为空时有效）
 
 
@@ -526,11 +526,6 @@ plugins:
     compatible: true # 卡片兼容性处理，如果未发现卡片出现兼容问题设置为false
     # darkmodejs的 mix-blend-mode 与 body.effect: [blur] 样式冲突，如果backstretch.position设置为'fixed'建议删除blur或禁用暗黑模式
 
-
-############################### Rightmenu ############################### > start
-# 自定义右键菜单
-rightmenu:
-  enable: true
 
 ############################### Comments ###############################
 comments:

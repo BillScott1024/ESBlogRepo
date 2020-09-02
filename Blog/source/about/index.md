@@ -175,7 +175,7 @@ sidebar: [blogger, tagcloud, webinfo]
 
 <!-- tab 生活 <i class="fas fa-star"></i> -->
 
-  {% image https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/LifeAchieve.jpg, alt=Life Is So Long... %}
+  {% image https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/images/IMG_3384.JPG?x-oss-process=style/WebSiteCover, alt=Life Is So Long... %}
 
 <!-- endtab -->
 
