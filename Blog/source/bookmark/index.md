@@ -30,7 +30,7 @@ sidebar: [blogger, tagcloud, webinfo]
 {% site LeanCloud, url=https://console.leancloud.app/applist.html#/apps, screenshot=https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/websites/LeanCloud.webp, description=LeanCloud %}
 {% site WebPushr, url=https://app.webpushr.com/, screenshot=https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/websites/webpushr.webp, description=浏览器通知 %}
 {% site Google Adsense, url=https://www.google.com/adsense/, screenshot=https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/websites/google-ad.webp, description=Google Adsense %}
-{% site ImageOptim, url=https://imageoptim.com/, screenshot=https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/websites/ImageOptim.png?x-oss-process=style/WebSiteCover, description=非常好用的没费图片压缩工具 ImageOptim %}
+{% site ImageOptim, url=https://imageoptim.com/, screenshot=https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/websites/ImageOptim.png?x-oss-process=style/WebSiteCover, description=非常好用的免费图片压缩工具 ImageOptim %}
 {% endsitegroup %}
 
 <!-- endtab -->
@@ -48,3 +48,61 @@ sidebar: [blogger, tagcloud, webinfo]
 <!-- endtab -->
 
 {% endtabs %}
+
+
+
+<!-- 
+<script type="text/javascript">
+
+function urlToImage(url,callback){
+
+    var xmlhttp = new XMLHttpRequest();
+    // xmlhttp.addEventListener("load" , transferComplete);
+    xmlhttp.open("POST", "https://v2.convertapi.com/convert/web/to/jpg?Secret=tgLIc81YVOMJLxca");
+    xmlhttp.setRequestHeader("Content-type","application/json");
+    const param = {
+        "Parameters": [
+            {
+                "Name": "Url",
+                "Value": url
+            },
+            {
+                "Name": "StoreFile",
+                "Value": true
+            },
+            {
+                "Name": "ImageWidth",
+                "Value": "1280"
+            },
+            {
+                "Name": "ImageHeight",
+                "Value": "750"
+            },
+            {
+                "Name": "ImageQuality",
+                "Value": "30"
+            }
+        ]
+    }
+    console.log("====JSON.stringify(param):", JSON.stringify(param));
+    xmlhttp.send(JSON.stringify(param));
+
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            callback(JSON.parse(xmlhttp.response));
+        } else if(xmlhttp.readyState == 4){
+            console.error(JSON.parse(xmlhttp.response));
+        }
+    }
+}
+
+
+urlToImage("https://baidu.com", (res) =>{
+    console.log("===urlToImage res", res);
+    console.log("===urlToImage imageUrl", res.Files[0].Url);
+
+    console.log("====page.screenshot", document.getElementById('page.screenshot'));
+}); -->
+
+
+<!-- </script> -->
