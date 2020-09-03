@@ -37,7 +37,7 @@ links:
   tags: [标签1, 标签2]    # 标签
   desc: 描述文字 
 
-## 示例:
+## 请添加我的友链后,评论申请友链信息:
   name: 星辰    # 博客名
   avatar:  https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/avatar/avatar.jpg?x-oss-process=style/WebSiteCover # 头像链接
   url:    https://www.extingstudio.com/  # 博客链接

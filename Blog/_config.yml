@@ -105,7 +105,7 @@ baidu_analytics_key: e98a157d14b712d66463073d921b0253
 
 google_analytics_key: UA-124641144-1
 
-
+# hexo-helper-live2d
 live2d:
   enable: false
   scriptFrom: local
@@ -135,14 +135,14 @@ live2d:
     #   'tap face': 'text2'
     #   'tap body': 'text3'
 
-# 压缩
+# 压缩 Hexo-all-minifier
 all_minifier: true
 
 webPushNotification:
   webpushrKey: "L9-CaP_yXKrdnS0nzTlIa-XOWmx2hmPW4-dkdPKtONo"
   webpushrAuthToken: "11579"
   trackingCode: "BNKbIvI_iJuSO3IFPx6D_gSjEve8q7iuxD8qMSMRfWMq0JSx0xRSadjd-x6TX8XI537fa3c7fGsgeic-ejD6l-o"
-
+# hexo-submit-urls-to-search-engine
 hexo_submit_urls_to_search_engine:
   submit_condition: count #链接被提交的条件，可选值：count | period 现仅支持count
   count: 10 # 提交最新的10个链接
@@ -170,8 +170,7 @@ hexo_submit_urls_to_search_engine:
 #        # gitcafe: git@github.com:xxx/xxx.git,branchName
 
 
-# 追番页 更新 hexo bangumi -u
-
+# 追番页 更新 hexo bangumi -u hexo-bilibili-bangumi
 bangumi:
   enable: true    # 是否启用
   path: bangumis/index.html # 番剧页面路径，默认bangumis/index.html
@@ -184,23 +183,6 @@ bangumi:
   color: (0, 150, 216)
   webp: true # 番剧封面使用webp格式(此格式在safari浏览器下不显示，但是图片大小可以缩小 100 倍左右)
   progress: false # 获取番剧数据时是否显示进度条，默认true
-
-# # offline config passed to sw-precache.
-# service_worker:
-#   maximumFileSizeToCacheInBytes: 5242880
-#   staticFileGlobs:
-#   - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
-#   stripPrefix: public
-#   verbose: true
-#   runtimeCaching:
-#     - urlPattern: /*
-#       handler: cacheFirst
-#       options:
-#         origin: https://cdn.jsdelivr.net
-#     # - urlPattern: /*
-#     #   handler: cacheFirst
-#     #   options:
-#     #     origin: cdn.some-else.org
 
 use_cdn: true
 
@@ -232,7 +214,7 @@ import:
     # - <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png">
     - <script async="" referrerpolicy="no-referrer" type="text/javascript" src="//cdn.jsdelivr.net/npm/leancloud-storage@3/dist/av-min.js"></script>
     # swal alert 2的动画样式
-    - <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.0.0/animate.min.css" />
   script:
     # 51La 统计
     - '<script type="text/javascript" src="https://js.users.51.la/20919671.js"></script>'

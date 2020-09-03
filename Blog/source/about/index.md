@@ -198,7 +198,8 @@ sidebar: [blogger, tagcloud, webinfo]
 {% checkbox blue, ~~点击烟花效果~~ %}
 {% checkbox blue checked, 动态线条背景 %}
 {% checkbox blue checked, DNS线路解析优化 %}
-{% checkbox blue, 优化弹窗效果 %}
+{% checkbox blue checked, 使用 ![SwetAlert2](https://sweetalert2.github.io/) 优化弹窗效果 %}
+{% checkbox blue checked, 转移静态资源使用 ![阿里云](https://aliyun.com) CDN %}
 <br>
 
 <!-- endtab -->

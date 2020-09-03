@@ -2,7 +2,6 @@
 layout: post
 title: 关于Laya的中Timer的使用方法
 description: 在使用laya.timer.loop之前，一定要先clear掉之前的定时器，否则会出现不可预期的BUG
-thumbnail: https://layaair.ldc.layabox.com/api/?category=Core&class=laya.utils.Timer
 date: 2018-09-07
 tags: LayaBox  
 music-id: 533455199
@@ -14,7 +13,7 @@ categories:
 
 # Laya中Timer的类
 
-### 1.官方文档 [Laya.Timer](https://layaair.ldc.layabox.com/api/?category=Core&class=laya.utils.Timer)
+### 1.官方文档 ![Laya.Timer](https://layaair.ldc.layabox.com/api/?category=Core&class=laya.utils.Timer)
 
 | Package | laya.utils |
 | --- | --- |
