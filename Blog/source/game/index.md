@@ -1,14 +1,15 @@
 ---
 layout: page
-title: Game Demos
 top_meta: false
 bottom_meta: [updated, share]
 sidebar: [blogger, tagcloud, webinfo]
 
 ---
 
+{% p center logo large, Game Demo 👾 %}
+{% p center small,Little Games %}
 
-# 游戏 Demo 合集 👾
+# 游戏 Demo 合集
 
 
 {% folding open, Game Demo %}

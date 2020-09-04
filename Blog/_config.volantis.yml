@@ -44,6 +44,10 @@ navbar:
           icon: fas fa-gamepad
           url: game/
           target: _blank
+        - name: 吉他谱
+          icon: fas fa-guitar fa-spin
+          url: guitar/
+          target: _blank
 
     - name: 更多
       icon: fas fa-ellipsis-v
@@ -503,7 +507,7 @@ plugins:
     # Set `layout: artitalk` to enable in page
     appID: V6xXL9F4DfrCwRJ6bLRqm65X-MdYXbMMI # your appID
     appKEY: TTnnUy9nwnTr9s61kGX78zEY # your appKEY
-    severurl: api-artitalk.extingstudio.com #leancloud绑定的安全域名，使用国际版的话不需要填写
+    severurl: https://api-artitalk.extingstudio.com #leancloud绑定的安全域名，使用国际版的话不需要填写
     # slanguage: # 语言设置，zh为汉语，en为英语，es为西班牙语。默认为汉语
     # per: #每页说说的显示数量
     # placeholder1: #在编辑说说的输入框中的占位符

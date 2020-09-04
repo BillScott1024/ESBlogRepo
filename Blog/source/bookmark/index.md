@@ -9,8 +9,10 @@ sidebar: [blogger, tagcloud, webinfo]
 ---
 
 
+{% p center logo large, 收藏夹 📘 %}
+{% p center small,bookmarks %}
 
-# 收藏夹 📘
+# 收藏夹
 
 {% tabs tab-id %}
 

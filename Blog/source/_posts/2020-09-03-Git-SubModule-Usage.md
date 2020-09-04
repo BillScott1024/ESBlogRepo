@@ -7,9 +7,9 @@ robots: Git fork 更新 Submodule Hexo 主题 静态博客
 keywords: Git fork 更新 Submodule Hexo 主题 静态博客
 headimg: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/post/20200904210131.jpg?x-oss-process=style/Post 
 categories:
- - Git
- - Hexo
- - 博客
+ - [Git]
+ - [Hexo]
+ - [博客]
 tags:
  - [Git]
  - [Hexo]

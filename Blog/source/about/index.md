@@ -1,6 +1,5 @@
 ---
 layout: page
-title: About Me
 top_meta: false
 bottom_meta: [updated, share]
 valine:
@@ -9,7 +8,7 @@ sidebar: [blogger, tagcloud, webinfo]
 
 ---
 
-{% p center logo large, About Me %}
+{% p center logo large, About Me 📃 %}
 {% p center small,关于我 & 我的博客 %}
 
 
@@ -17,7 +16,7 @@ sidebar: [blogger, tagcloud, webinfo]
 
 <!-- tab 关于 <i class="far fa-id-card"></i> -->
 
-# 简介 📃
+# 简介
 
 
 {% radio green checked,  游戏开发者 👨‍💻 %}
