@@ -214,7 +214,7 @@ import:
     # - <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png">
     - <script async="" referrerpolicy="no-referrer" type="text/javascript" src="//cdn.jsdelivr.net/npm/leancloud-storage@3/dist/av-min.js"></script>
     # swal alert 2的动画样式
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.0.0/animate.min.css" />
+    # - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.0.0/animate.min.css" />
   script:
     # 51La 统计
     - '<script type="text/javascript" src="https://js.users.51.la/20919671.js"></script>'
@@ -230,5 +230,5 @@ import:
     # 右键复制版权信息
     - <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/js/copy-0.0.8.min.js" ></script>
     # sweetalert2 plugins
-    - <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    # - <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
