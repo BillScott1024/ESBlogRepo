@@ -40,6 +40,10 @@ navbar:
           icon: fas fa-shield-alt
           url:  https://ssl.extingstudio.com/
           target: _blank
+        - name: 游戏
+          icon: fas fa-gamepad
+          url: game/
+          target: _blank
 
     - name: 更多
       icon: fas fa-ellipsis-v
