@@ -23,7 +23,8 @@ navbar:
       url: friends/
     - name: 说说
       icon: fas fa-comments
-      url: artitalk/
+      url: https://extingstudio.com/artitalk/
+      target: _blank
     - name: 番剧
       icon: fas fa-tv
       url: bangumis/index.html
@@ -42,11 +43,11 @@ navbar:
           target: _blank
         - name: 游戏
           icon: fas fa-gamepad
-          url: game/
+          url: https://extingstudio.com/game
           target: _blank
         - name: 吉他谱
           icon: fas fa-guitar fa-spin
-          url: guitar/
+          url: https://extingstudio.com/guitar/
           target: _blank
 
     - name: 更多
@@ -90,7 +91,8 @@ cover:
       url: friends/
     - name: 说说
       icon: fas fa-comments
-      url: artitalk/
+      url: https://extingstudio.com/artitalk/
+      target: _blank
     - name: 关于
       icon: fas fa-info-circle
       url: about/
@@ -494,7 +496,7 @@ plugins:
     animation: nprogress # nprogress, circle
     banUrl:              # 被屏蔽的 url 地址将不启用 pjax 跳转，可以在控制台下使用 window.location.pathname 获取
       # - '/about/index.html'
-      - '/artitalk/'
+      - '/artitalk'
       # - '/friends/'
       # - '/bangumis/index.html'
       # - '/comments/'
