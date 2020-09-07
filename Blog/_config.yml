@@ -216,7 +216,7 @@ import:
     # swal alert 2的动画样式
     # - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.0.0/animate.min.css" />
   script:
-    - <script async="" referrerpolicy="no-referrer" type="text/javascript" src="//cdn.jsdelivr.net/npm/leancloud-storage@3/dist/av-min.js"></script>
+    # - <script async="" referrerpolicy="no-referrer" type="text/javascript" src="//cdn.jsdelivr.net/npm/leancloud-storage@3/dist/av-min.js"></script>
     # 51La 统计
     - '<script type="text/javascript" src="https://js.users.51.la/20919671.js"></script>'
     # U-Meng 统计
