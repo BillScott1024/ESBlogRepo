@@ -97,6 +97,10 @@ cover:
       icon: fas fa-info-circle
       url: about/
 
+pages:
+  # 友链页面配置
+  friends:
+    layout_scheme: traditional # simple: 简单布局, traditional: 传统布局,  sites: 网站卡片布局
 
 # 文章布局
 article:
@@ -471,8 +475,6 @@ plugins:
   aplayer:
     enable: true
     js:
-      # - https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js
-      # - https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js
       - https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js
       - https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js
 
@@ -486,7 +488,7 @@ plugins:
     autoplay: true   # audio autoplay
     order: random       # player play order, values: 'list', 'random'
     loop: all         # player loop play, values: 'all', 'one', 'none'
-    volume: 0.5       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
+    volume: 0.3       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
     list_max_height: 320px # list max height
     list_folded: true
   pjax:
@@ -496,7 +498,7 @@ plugins:
     animation: nprogress # nprogress, circle
     banUrl:              # 被屏蔽的 url 地址将不启用 pjax 跳转，可以在控制台下使用 window.location.pathname 获取
       # - '/about/index.html'
-      - '/artitalk'
+      - /artitalk/
       # - '/friends/'
       # - '/bangumis/index.html'
       # - '/comments/'
@@ -507,18 +509,29 @@ plugins:
   # 除appID和appKEY外均为选填项
   artitalk:
     # Set `layout: artitalk` to enable in page
-    appID: V6xXL9F4DfrCwRJ6bLRqm65X-MdYXbMMI # your appID
-    appKEY: TTnnUy9nwnTr9s61kGX78zEY # your appKEY
-    severurl: https://api-artitalk.extingstudio.com #leancloud绑定的安全域名，使用国际版的话不需要填写
-    # slanguage: # 语言设置，zh为汉语，en为英语，es为西班牙语。默认为汉语
-    # per: #每页说说的显示数量
-    # placeholder1: #在编辑说说的输入框中的占位符
-    # placeholder2: #自定义头像url的输入框的占位符
-    # lazy: #加载动画的开关，1为开，0为关，默认为开
-    # bgimg: #说说输入框背景图片url
+    appId: V6xXL9F4DfrCwRJ6bLRqm65X-MdYXbMMI # your appID
+    appKey: TTnnUy9nwnTr9s61kGX78zEY # your appKEY
+    # Un_NewVersion:  # 取消使用新版Artitalk，默认为false
+    # serverURL:  #leancloud绑定的安全域名，使用国际版的话不需要填写
+    # lang: # 语言设置，zh为汉语，en为英语，es为西班牙语。默认为汉语
+    # pageSize: #每页说说的显示数量
+    # shuoPla: #在编辑说说的输入框中的占位符
+    # avatarPla: #自定义头像url的输入框的占位符
+    # motion: #加载动画的开关，1为开，0为关，默认为开
+    # bgImg: #说说输入框背景图片url
     # color1: #说说背景颜色1&按钮颜色1
     # color2: #说说背景颜色2&按钮颜色2
     # color3: #说说字体颜色
+    # cssUrl: #自定义css接口（仅新版Artitalk有效）
+
+  # 从 issues 加载动态数据
+  # {% issues sites/timeline/friends | api=xxx | group=key:a,b,c %}
+  # 例如：
+  # {% issues sites | api=https://api.github.com/repos/volantis-x/examples/issues?sort=updated&state=open&page=1&per_page=100 | group=version:latest,v6,v5,v4,v3,v2,v1,v0 %}
+  issues:
+    enable: #true
+    js:
+
   ##################################
   ##################################
   # 暗黑模式 darkmodejs

@@ -1,6 +1,6 @@
 ---
 layout: artitalk
-title: 说说
+seo_title: 说说
 top_meta: false
 comments: false
 bottom_meta: false
