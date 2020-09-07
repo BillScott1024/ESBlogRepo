@@ -6,6 +6,9 @@ updated: 2020-09-03
 robots: Git fork 更新 Submodule Hexo 主题 静态博客
 keywords: Git fork 更新 Submodule Hexo 主题 静态博客
 headimg: https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/post/20200904210131.jpg?x-oss-process=style/Post 
+references:
+ - title: 工作中最常用的Git命令及常见错误解决方案
+   url: https://www.extingstudio.com/2019/09/10/2019-09-10-The_Most%20Commonly_Used_Git_Command_At_Work/
 categories:
  - [Git]
  - [Hexo]
