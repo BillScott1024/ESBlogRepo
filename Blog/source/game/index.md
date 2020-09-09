@@ -15,7 +15,7 @@ sidebar: [blogger, tagcloud, webinfo]
 {% folding open, Game Demo %}
 
 {% sitegroup %}
-{% site Cocos Examples, url=https://game.extingstudio.com/games/cocos-example/, screenshot=https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/websites/games/cover-cocos-examp.jpg?x-oss-process=style/WebSiteCover, description=Cocos Creator 案例，用于测试Web支持组件 %}
+{% issues sites | api=https://gitee.com/api/v5/repos/exting/bookmark/issues?state=open&creator=exting&sort=created&direction=asc&page=1&per_page=100&labels=demo %}
 {% endsitegroup %}
 
 ...待添加...
