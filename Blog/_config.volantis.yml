@@ -93,6 +93,10 @@ cover:
       icon: fas fa-comments
       url: https://extingstudio.com/artitalk/
       target: _blank
+    - name: 开往
+      icon: fab fa-telegram-plane fa-spin
+      url: https://travellings.now.sh/
+      target: _blank
     - name: 关于
       icon: fas fa-info-circle
       url: about/
