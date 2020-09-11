@@ -107,10 +107,11 @@ google_analytics_key: UA-124641144-1
 
 # hexo-helper-live2d
 live2d:
-  enable: false
+  enable: true
   scriptFrom: local
+  debug: false
   model:
-    use: live2d-widget-model-tororo #模型选择
+    use: violet # 博客根目录/live2d_models/ 下的目录名  # live2d-widget-model-tororo #模型选择
     scale: 1
     hHeadPos: 0.5
     vHeadPos: 0.618
@@ -120,20 +121,28 @@ live2d:
     height: 300      #模型高度
     superSample: 2
     hOffset: 40     # 横坐标偏移
-    vOffset: 50     # 纵坐标偏移
+    vOffset: 150     # 纵坐标偏移
   mobile:
     show: false      #是否在手机端显示
     scale: 0.5
   react:
+    zIndex: 0
     opacityDefault: 1
     opacityOnHover: 0.2
   dialog: 
     enable: true
     hitokoto: true
-    # script:
-    #   'every idle 10s': 'text1'
-    #   'tap face': 'text2'
-    #   'tap body': 'text3'
+    script:
+      'every idle 10s': 'text1'
+      'start': 'start'
+      'tap head': 'tap_head'
+      'tap body': 'tap_body'
+      'tap arm left': 'tap_arm_left'
+      'tap arm right': 'tap_arm_right'
+      'tap skirt': 'tap_skirt'
+      'new msg': 'new_msg'
+      # 'tap face': 'tap_head'
+      # 'tap body': 'tap_body'
 
 # 压缩 Hexo-all-minifier
 all_minifier: true
