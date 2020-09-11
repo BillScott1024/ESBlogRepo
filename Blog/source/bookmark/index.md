@@ -26,7 +26,17 @@ sidebar: [blogger, tagcloud, webinfo]
 
 <!-- endtab -->
 
-<!-- tab 素材资源 🗂 -->
+<!-- tab IT工具 🔧 -->
+
+# IT工具
+
+{% sitegroup %}
+{% issues sites | api=https://gitee.com/api/v5/repos/exting/bookmark/issues?state=open&creator=exting&sort=created&direction=asc&page=1&per_page=100&labels=tool %}
+{% endsitegroup %}
+
+<!-- endtab -->
+
+<!-- tab 素材资源 📦 -->
 
 # 素材资源
 
