@@ -56,6 +56,9 @@ navbar:
         - name: 留言板
           icon: fas fa-file-signature
           url: comments/
+        - name: 统计图
+          icon: fas fa-chart-pie
+          url: charts/
         - name: 工具箱
           icon: fas fa-tools
           url: tools/
