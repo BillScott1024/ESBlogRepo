@@ -62,7 +62,10 @@ navbar:
         - name: 工具箱
           icon: fas fa-tools
           url: tools/
-
+        - name: 赞赏
+          icon: fas fa-thumbs-up fa-spin
+          url: https://donate.extingstudio.com/
+          target: _blank
 
 
 
@@ -495,6 +498,7 @@ plugins:
     banUrl:              # 被屏蔽的 url 地址将不启用 pjax 跳转，可以在控制台下使用 window.location.pathname 获取
       # - '/about/index.html'
       - /artitalk/
+      - /charts/
       # - '/friends/'
       # - '/bangumis/index.html'
       # - '/comments/'
