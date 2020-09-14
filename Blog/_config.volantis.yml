@@ -64,7 +64,7 @@ navbar:
           url: tools/
         - name: 赞赏
           icon: fas fa-thumbs-up fa-spin
-          url: https://donate.extingstudio.com/
+          url: http://donate.extingstudio.com/
           target: _blank
 
 
