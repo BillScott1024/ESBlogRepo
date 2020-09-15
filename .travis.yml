@@ -1,0 +1,59 @@
+# 配置语言及相应版本
+language: node_js
+node_js: stable
+
+# 缓存，可以节省集成的时间，这里我用了yarn，如果不用可以删除
+cache:
+  apt: true
+  yarn: true
+  directories:
+    - node_modules
+
+# 配置环境
+before_install:
+  - npm install -g hexo-cli
+
+install:
+  - yarn install
+
+#before_script:
+ # - npm install -g gulp
+
+script:
+  # - hexo clean
+  # - hexo generate
+  # - hexo deploy
+  - npm run deploy
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "${U_NAME}"
+  - git config user.email "${U_EMAIL}"
+  - git add .
+  - git commit -m "Site updated Travis.com ：$(date)"
+  # 上传 GitHub
+  # 使用 token 方式 --- 笔者多次未授权成功
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:${P_BRANCH}
+  - echo "GITHUB pushed"
+
+# after_success:
+#   - cd ./public
+
+# 项目所在分支
+branches:
+  only:
+  - master
+
+# 环境变量
+env:
+  global:
+    # github
+    - GH_REF: git@github.com:BillScott1024/billscott1024.github.io.git
+    # 使用token授权
+    - GH_TOKEN: $GH_TOKEN
+
+    # 分支
+    - P_BRANCH: master
+    - U_EMAIL: jaxsonwang@foxmail.com
+    - U_NAME: Akimoto
