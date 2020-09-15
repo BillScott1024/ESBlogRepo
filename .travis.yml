@@ -34,7 +34,7 @@ after_script:
   - git commit -m "Site updated Travis.com ：$(date)"
   # 上传 GitHub
   # 使用 token 方式 --- 笔者多次未授权成功
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:${P_BRANCH}
+  - git push --force --quiet "https://${GH_TOKEN_GITHUB}@${GH_REF}" master:${P_BRANCH}
   - echo "GITHUB pushed"
 
 # after_success:
