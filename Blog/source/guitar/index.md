@@ -36,3 +36,12 @@ sidebar: [blogger, tagcloud, webinfo]
 {% image https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/guitar/IMG_0417.JPG?x-oss-process=style/Post, alt=《玫瑰》前奏 %}
 
 {% endfolding %}
+
+{% folding, 《Always With Me》- 千与千寻 %}
+
+《Always With Me》
+
+{% image https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/guitar/Always%20With%20Me.jpeg?x-oss-process=style/webp, alt=《Always With Me》 %}
+{% image https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/guitar/Always%20With%20Me%202.jpeg?x-oss-process=style/webp, alt=《Always With Me》 %}
+
+{% endfolding %}
