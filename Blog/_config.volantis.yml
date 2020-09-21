@@ -45,6 +45,10 @@ navbar:
           icon: fas fa-network-wired
           url: https://traffic.extingstudio.com/
           target: _blank
+        - name: 服务器状态监测面板
+          icon: fas fa-server
+          url: https://status.extingstudio.com/
+          target: _blank
         - name: 游戏
           icon: fas fa-gamepad
           url: https://extingstudio.com/game
