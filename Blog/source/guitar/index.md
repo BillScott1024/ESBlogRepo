@@ -45,3 +45,11 @@ sidebar: [blogger, tagcloud, webinfo]
 {% image https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/guitar/Always%20With%20Me%202.jpeg?x-oss-process=style/webp, alt=《Always With Me》 %}
 
 {% endfolding %}
+
+{% folding blue, 《双门洞/惠化洞》 - 请回答1988 %}
+
+《双门洞/惠化洞》 - 请回答1988
+
+{% image https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/guitar/IMG_3636.JPG?x-oss-process=style/webp, alt=《双门洞/惠化洞》 %}
+
+{% endfolding %}
