@@ -41,6 +41,10 @@ navbar:
           icon: fas fa-shield-alt
           url:  https://ssl.extingstudio.com/
           target: _blank
+        - name: CloudFlare流量监控
+          icon: fas fa-network-wired
+          url: https://traffic.extingstudio.com/
+          target: _blank
         - name: 游戏
           icon: fas fa-gamepad
           url: https://extingstudio.com/game
