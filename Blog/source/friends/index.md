@@ -64,7 +64,7 @@ sidebar: false
 
 {% timenode 第三步：刷新 %}
 
-回来 {% kbd F5 %} 刷新本页面即可生效。
+申请后会自动审核通过并更新本站友链页, {% kbd F5 %} 刷新本页面即可生效。
 
 {% endtimenode %}
 
