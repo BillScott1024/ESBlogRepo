@@ -35,6 +35,7 @@ skip_render:
   - "bangumis/index.html"
   - "album/index.md"
   - "404.html"
+  - "yandex_8a3a9b53d4e60cf5.html"
 # will output `source/mypage/index.html` and `source/mypage/code.js` without altering them.
 
 # Writing
