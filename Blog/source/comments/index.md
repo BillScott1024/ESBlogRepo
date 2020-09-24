@@ -22,7 +22,8 @@ music:
   <div class="poem-border poem-right"></div>
     <h1>一言</h1>
     <p id="poem">挑选中...</p>
-    <p id="info">
+    <p id="info"></p>
+    <p style="text-align:right" color="#696969" id="creator">- by</p>
 </div>
 
 ***
@@ -31,7 +32,36 @@ music:
 
 ***
 
+<!-- 老式写法，兼容性最好; 支持 IE -->
 <script>
+  var xhr = new XMLHttpRequest();
+  xhr.open('get', 'https://v1.hitokoto.cn');
+  var hitokotoText = document.getElementById("poem");
+  var hitokotoFrom = document.getElementById('info');
+  var hitokotoCreator = document.getElementById('creator');
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4) {
+      var data = JSON.parse(xhr.responseText);
+      console.log("==data", data)
+      hitokotoText.innerText = data.hitokoto
+      if (data.from_who != null) {
+        hitokotoFrom.innerText = (data.from_who + " · " + "《 " + data.from + " 》")
+      } else {
+        hitokotoFrom.innerText = data.from
+      }
+      if (data.creator != null) {
+        hitokotoCreator.innerText = ("- by " + data.creator)
+      } else {
+        hitokotoCreator.innerText = ""
+      }
+    } else {
+        hitokotoText.innerText = "获取出错啦"
+    }
+  }
+  xhr.send();
+</script>
+
+<!-- <script>
     $.get("https://v1.hitokoto.cn?c=i&c=j", function (data, status) {
         if (status == 'success') {
             $('#poem').html(data.hitokoto);
@@ -44,7 +74,7 @@ music:
             $('#poem').html("获取出错啦");
         }
     });
-</script>
+</script> -->
 
 <style>
 .poem-wrap {

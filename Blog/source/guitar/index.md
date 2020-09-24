@@ -53,3 +53,14 @@ sidebar: [blogger, tagcloud, webinfo]
 {% image https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/guitar/IMG_3636.JPG?x-oss-process=style/webp, alt=《双门洞/惠化洞》 %}
 
 {% endfolding %}
+
+{% folding blue, 《Lemon》 - 米津玄师 %}
+
+《Lemon》 - 米津玄师
+
+{% image https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/guitar/Lemon-01.jpg?x-oss-process=style/webp, alt=《Lemon-01》 %}
+{% image https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/guitar/Lemon-02.jpg?x-oss-process=style/webp, alt=《Lemon-02》 %}
+{% image https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/guitar/Lemon-03.jpg?x-oss-process=style/webp, alt=《Lemon-03》 %}
+{% image https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/guitar/Lemon-04.jpg?x-oss-process=style/webp, alt=《Lemon-04》 %}
+
+{% endfolding %}
