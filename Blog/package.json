@@ -44,7 +44,7 @@
     "hexo-web-push-notification": "^0.2.3",
     "hexo-wordcount": "^6.0.1",
     "live2d-widget-model-wanko": "^1.0.5",
-    "npm-check-updates": "^9.0.1",
+    "npm-check-updates": "^9.0.2",
     "yuque-hexo": "^1.6.5"
   },
   "yuqueConfig": {
