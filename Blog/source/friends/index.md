@@ -36,9 +36,9 @@ sidebar: false
 
 {% timenode 第一步：选择任意一个自助提交入口 %}
 
-{% link GitHub Issues 友链自助提交入口 🔗, https://github.com/BillScott1024/blog-friends/issues/new/choose %}
+{% link 🔗GitHub Issue 友链自助提交入口, https://github.com/BillScott1024/blog-friends/issues/new/choose %}
 
-{% link Gitee Issues 友链自助提交入口 🔗, https://gitee.com/exting/friends-links/issues %}
+{% link 🔗Gitee Issue 友链自助提交入口, https://gitee.com/exting/friends-links/issues %}
 
 
 {% endtimenode %}

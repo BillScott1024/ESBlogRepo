@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 收藏夹
+seo_title: 收藏夹
 top_meta: false
 bottom_meta: [updated, share]
 valine:

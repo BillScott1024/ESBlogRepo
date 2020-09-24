@@ -306,7 +306,6 @@ sidebar:
         icon: fas fa-mug-hot
         title: 觉得文章有帮助的话，可以扫码请我喝杯咖啡哦~
       height: 100px  # Automatic height if not set
-      fancybox: true
       images:
         - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/webinfos/pay-wechat.jpg?x-oss-process=style/WebSiteCover
         - https://es-blogimg.oss-cn-hangzhou.aliyuncs.com/img/webinfos/pay-alipay.png?x-oss-process=style/WebSiteCover
@@ -332,14 +331,16 @@ sidebar:
           enable: true
           text: '本站总字数：'   # 需要启用 wordcount
           unit: '字'
-        siteuv:
-          enable: true
-          text: '本站访客数：'   # 需要启用 busuanzi
-          unit: '人'
-        sitepv:
-          enable: true
-          text: '本站总访问量：' # 需要启用 busuanzi
-          unit: '次'
+        visitcounter:
+          service: leancloud  # busuanzi, leancloud
+          siteuv:
+            enable: true
+            text: '本站访客数：'
+            unit: '人'
+          sitepv:
+            enable: true
+            text: '本站总访问量：'
+            unit: '次'
         lastupd:
           enable: true
           friendlyShow: true    # 更友好的时间显示
@@ -519,7 +520,6 @@ plugins:
     # Set `layout: artitalk` to enable in page
     appId: V6xXL9F4DfrCwRJ6bLRqm65X-MdYXbMMI # your appID
     appKey: TTnnUy9nwnTr9s61kGX78zEY # your appKEY
-    # Un_NewVersion:  # 取消使用新版Artitalk，默认为false
     # serverURL:  #leancloud绑定的安全域名，使用国际版的话不需要填写
     # lang: # 语言设置，zh为汉语，en为英语，es为西班牙语。默认为汉语
     # pageSize: #每页说说的显示数量
@@ -530,7 +530,7 @@ plugins:
     # color1: #说说背景颜色1&按钮颜色1
     # color2: #说说背景颜色2&按钮颜色2
     # color3: #说说字体颜色
-    # cssUrl: #自定义css接口（仅新版Artitalk有效）
+    # cssUrl: #自定义css接口
 
   # 从 issues 加载动态数据
   # {% issues sites/timeline/friends | api=xxx | group=key:a,b,c %}
