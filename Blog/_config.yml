@@ -247,4 +247,5 @@ import:
     - <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/js/copy-0.0.8.min.js" ></script>
     # sweetalert2 plugins
     # - <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    - <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/js/title_cheat.min.js" ></script>
 
