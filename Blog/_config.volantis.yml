@@ -586,7 +586,7 @@ comments:
     tagMeta: ['博主','小伙伴','访客']
     master: ['99f30fa72c5a1da511002a1122a78a36']
     friends: []
-    serverURLs: 'api-latestcomments-v2.extingstudio.com'
+    serverURLs: 'https://api-latestcomments-v2.extingstudio.com'
     
 
 
