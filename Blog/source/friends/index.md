@@ -85,7 +85,7 @@ JSON 格式:
     "title": "忆星辰",
     "description": "游戏开发者, 业余摄影师",
     "screenshot": "https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/homepage.webp",
-    "url": "https://extingstudio.com",
+    "url": "https://home.extingstudio.com",
     "avatar": "https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/avatar.webp"
 }
 
@@ -94,7 +94,7 @@ JSON 格式:
 YAML 格式:
 ```YAML
   title: 忆星辰
-  url: https://extingstudio.com
+  url: https://home.extingstudio.com
   avatar: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/avatar.webp
   description: 游戏开发者, 业余摄影师
   screenshot: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/homepage.webp
@@ -104,7 +104,7 @@ YAML 格式:
 |  选项   | 内容  |
 |  ----  | ----  |
 | 主页标题  | 忆星辰 |
-| 链接  | https://extingstudio.com |
+| 链接  | https://home.extingstudio.com |
 | 头像  | https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/avatar.webp |
 | 标签  | 游戏开发者, 业余摄影师 |
 | 主页截图  | https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/homepage.webp |
