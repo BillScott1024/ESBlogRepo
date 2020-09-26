@@ -368,7 +368,7 @@ sidebar:
         - '1.优化了DNS解析线路,加速全站访问速度'
         - '2.更新了<a href="https://home.extingstudio.com/">个人主页</a>，欢迎访问'
         - '3.增加了[服务器监测页](https://status.extingstudio.com/)'
-        - '3.增加了[本站24小时流量检测页面](https://traffic.extingstudio.com/)'
+        - '4.增加了本站24小时[流量检测页面](https://traffic.extingstudio.com/)'
         # - '[<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/logo.png" height="50px">](https://github.com/xaoxuu/ProHUD)'
 ############################### Sidebar ############################### > end
 
