@@ -1,3 +1,4 @@
+---
 layout: post
 title: 处理 Android 打包环境配置不对，导致的打包报错问题
 date: 2021-02-10
@@ -16,10 +17,9 @@ references:
    tags:
  - [工作]
  - [疑难杂症]
+---
 
 
-
-# 处理 Android 打包环境配置不对，导致的打包报错问题
 
 
 
