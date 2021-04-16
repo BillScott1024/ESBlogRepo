@@ -482,7 +482,7 @@ plugins:
   # APlayer is only available in mainland China.
   # APlayer config: https://github.com/metowolf/MetingJS
   aplayer:
-    enable: true
+    enable: false
     js:
       - https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js
       - https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js
